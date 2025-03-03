@@ -1,3 +1,44 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+@font-face {
+    font-family: "National Park";
+    src: url("./static/fonts/NationalPark-VariableVF.woff2") format(woff2);
+}
+
+:root {
+    overscroll-behavior: none;
+}
+
+* {
+    scrollbar-color: var(--secondary) var(--light);
+}
+
+footer { 
+    opacity: 1;
+}
+
+hr {
+   height: 5px; 
+}
+
+.internal {
+    padding: 0.1rem 0.2rem !important;
+}
+
+.sidebar {
+    padding-bottom: 5px !important;
+}
+
+.center a[href^="https://ribo.zone"] svg {
+    display: none;
+}
+
+.center a[href^="https://ribo.zone"]::after {
+    content: url("https://ribo.zone/img/favicon.png");
+    vertical-align: sub;
+    width: 16px;
+    margin: 0 3px;
+    image-rendering: pixelated;
+}

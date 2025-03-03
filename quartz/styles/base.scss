@@ -407,7 +407,7 @@ pre {
   padding: 0 0.5rem;
   border-radius: 5px;
   overflow-x: auto;
-  border: 1px solid var(--lightgray);
+  background: var(--lightgray);
   position: relative;
 
   &:has(> code.mermaid) {

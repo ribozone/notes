@@ -10,7 +10,7 @@ import { i18n } from "../i18n"
 
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
-  folderClickBehavior: "collapse",
+  folderClickBehavior: "link",
   folderDefaultState: "collapsed",
   useSavedState: true,
   mapFn: (node) => {
@@ -33,7 +33,11 @@ const defaultOptions = {
       return -1
     }
   },
-  filterFn: (node) => node.name !== "tags",
+  filterFn: (node) => {
+    // set containing names of everything you want to filter out
+    const omit = new Set(["meta", "tags", "hosting"])
+    return !omit.has(node.name.toLowerCase())
+  },
   order: ["filter", "map", "sort"],
 } satisfies Options
 
