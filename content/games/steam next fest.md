@@ -1,6 +1,6 @@
 ---
 title: steam next fest
-description: game demo roundup
+description: charcuterie board for gamers
 draft: false
 tags:
 ---
@@ -28,3 +28,8 @@ tags:
 - [am i nima](https://store.steampowered.com/app/3224600/Am_I_Nima/) --  wowww "words can be dragged from your brain down to your mouth to unlock new dialogue options" yes yes yes yes yes. very excited and scared to play the whole thing. excited because everything about it is so compelling, and scared because i have a difficult relationship with my mom and this is... well.. it's fucked
 - [repose](https://store.steampowered.com/app/3002510/REPOSE/) -- gorgeous 1-bit dithered graphics and interesting setting but i get too scared. there was a guy. too scary
 - [mudborne](https://store.steampowered.com/app/2355150/Mudborne_Frog_Management_Sim/) -- unscared myself with some frogs. didn't get far enough into the game to see how genetics works yet, but i'll be back to chill in the pond
+- [locomoto](https://store.steampowered.com/app/2328650/Locomoto/) -- super cute. i ended up playing for way longer than i intended because it was such a nice experience. ben peeked over my shoulder at one point and said "this looks like massachusetts"
+- [mashina](https://store.steampowered.com/app/3395930/Mashina/) -- i looove stop-motion animation. can't get enough of the look of this and it's fun to dig in the ground
+- [despelote](https://store.steampowered.com/app/2367820/despelote/) -- the opening sequence made me say wow out loud. fantastic visual style. deeply moving
+- [doloc town](https://store.steampowered.com/app/2285550/Doloc_Town/) --  i like it! the art/setting/music are all super charming and i enjoy little gathering and farming tasks. the overuse of text animations annoyed me though. three different animations in a single speech bubble??
+- [goodlands](https://store.steampowered.com/app/1797850/Goodlands/) -- veggie sandwich bouncing around in the truck bed made me laugh. also ermm sorry to the triceratops skull i beat up with the dremel tool. i'll do better next time when i'm achievement hunting

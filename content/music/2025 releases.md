@@ -13,4 +13,5 @@ tags:
 
 ## February
 `07` | [The Insurgeon](https://neetsonline.bandcamp.com/track/the-insurgeon) (single) by NEETS
-
+`07` | [Cowards](https://squiduk.bandcamp.com/album/cowards) by Squid
+`28` | [Sinister Grift](https://pandabearmusic.bandcamp.com/album/sinister-grift) by Panda Bear

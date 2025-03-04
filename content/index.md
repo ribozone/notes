@@ -1,6 +1,6 @@
 ---
 title: everything reminds me of everything else
-description: erm
+description: 
 draft: false
 tags:
 ---
@@ -16,9 +16,9 @@ tags:
 
 ```
 
-drafts and link lists and rambling i don't feel like putting on my homepage for whatever reason
+drafts and lists and rambling i don't feel like putting on my homepage for whatever reason
 
-link style guide: [[meta|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
+navigation guide: [[meta|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
 
 ## recently updated
 
@@ -28,13 +28,13 @@ link style guide: [[meta|internal links]] | [external links](http://endless.hors
 | Page                                              | Last modified |
 | ------------------------------------------------- | ------------- |
 | [[steam next fest]]     | Mar 3, 2025   |
+| [[2025 releases]]         | Mar 3, 2025   |
 | [[accordion]]     | Mar 1, 2025   |
 | [[solar synth]] | Mar 1, 2025   |
 | [[eukaryote story]] | Mar 1, 2025   |
 | [[spore dispersal]]       | Mar 1, 2025   |
 | [[videos]]                       | Mar 1, 2025   |
 | [[bitsy]]             | Feb 28, 2025  |
-| [[2025 releases]]         | Feb 28, 2025  |
 <!-- SerializedQuery END -->
 
 
