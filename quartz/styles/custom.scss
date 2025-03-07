@@ -23,6 +23,14 @@ hr {
    height: 5px; 
 }
 
+ul {
+    list-style-type: '\2726  ';
+}
+
+ul ul {
+    list-style-type: '\2727  ';
+}
+
 .internal {
     padding: 0.1rem 0.2rem !important;
 }
@@ -37,7 +45,7 @@ hr {
 
 .center a[href^="https://ribo.zone"]::after {
     content: url("https://ribo.zone/img/favicon.png");
-    vertical-align: sub;
+    vertical-align: baseline;
     width: 16px;
     margin: 0 3px;
     image-rendering: pixelated;
