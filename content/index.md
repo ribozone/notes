@@ -18,8 +18,6 @@ tags:
 
 drafts and lists and rambling i don't feel like putting on my homepage for whatever reason
 
-text and 
-
 navigation guide: [[meta|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
 
 ## recently updated
@@ -30,8 +28,8 @@ navigation guide: [[meta|internal links]] | [external links](http://endless.hors
 | Page                                              | Last modified |
 | ------------------------------------------------- | ------------- |
 | [[neocities]]                   | Mar 8, 2025   |
-| [[metaphors]]          | Mar 8, 2025   |
 | [[ideas]]                  | Mar 8, 2025   |
+| [[metaphors]]          | Mar 8, 2025   |
 | [[2025 releases]]         | Mar 7, 2025   |
 | [[accordion]]     | Mar 4, 2025   |
 | [[solar synth]] | Mar 4, 2025   |
