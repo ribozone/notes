@@ -2,7 +2,7 @@
 title: meta
 description: information about how this site is built
 draft: false
-tags: []
+tags: 
 ---
 
 Made with [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz/)

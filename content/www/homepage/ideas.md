@@ -5,7 +5,9 @@ draft: false
 tags:
 ---
 
-> [!info] remember: this is not a to-do list
+> [!info] reminder to self: this is not a to-do list
+
+written for my own reference, but feel free to take an idea if it speaks to you. though i caution against following any list of webpage ideas too closely. the most bored i've ever felt working on my site was while making my /now and /uses pages...
 
 - gallery of my neopets drawings from 2005-2007
 	- have one of my old notebooks, still need to scan it
@@ -17,3 +19,8 @@ tags:
 - instagram archive
 	- data export done, and the format is less annoying than twitter's
 	- all of my favorite photos are of ben, but he's not comfortable with those being on my site. very reasonable; i'm not comfortable with photos of myself being on my site either. (i think there's one or two exceptions, but they're low res and dithered...) the idea of going through the archive and redacting all photos of us really bums me out, so i keep putting it off. makes me dream about making a private website only accessible by friends and family. maybe on a flash drive i carry around?
+- page for pride flags to link to (resources? art showcase?)
+- greenhouse (botany hub)
+- houseplant log
+- allium appreciation zone
+- some kind of guymaker with [flickguy](https://kool.tools/flickguy/) (bug? mech?)

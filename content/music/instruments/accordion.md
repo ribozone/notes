@@ -1,6 +1,6 @@
 ---
 title: accordion
-description: 
+description: the squeezebox
 draft: false
 tags:
 ---

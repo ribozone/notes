@@ -1,6 +1,6 @@
 ---
 title: everything reminds me of everything else
-description: 
+description: home of ribonotes
 draft: false
 tags:
 ---
@@ -18,7 +18,7 @@ tags:
 
 drafts and lists and rambling i don't feel like putting on my homepage for whatever reason
 
-navigation guide: [[meta|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
+navigation guide: [[meta/index|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
 
 ## recently updated
 
@@ -27,14 +27,14 @@ navigation guide: [[meta|internal links]] | [external links](http://endless.hors
 
 | Page                                              | Last modified |
 | ------------------------------------------------- | ------------- |
-| [[neocities]]                   | Mar 8, 2025   |
-| [[ideas]]                  | Mar 8, 2025   |
+| [[neocities]]                   | Mar 10, 2025  |
+| [[solar synth]] | Mar 10, 2025  |
+| [[accordion]]     | Mar 10, 2025  |
+| [[ideas]]                  | Mar 10, 2025  |
+| [[videos]]                       | Mar 10, 2025  |
 | [[metaphors]]          | Mar 8, 2025   |
 | [[2025 releases]]         | Mar 7, 2025   |
-| [[accordion]]     | Mar 4, 2025   |
-| [[solar synth]] | Mar 4, 2025   |
 | [[steam next fest]]     | Mar 3, 2025   |
-| [[eukaryote story]] | Mar 1, 2025   |
 <!-- SerializedQuery END -->
 
 
