@@ -20,7 +20,13 @@ written for my own reference, but feel free to take an idea if it speaks to you.
 	- data export done, and the format is less annoying than twitter's
 	- all of my favorite photos are of ben, but he's not comfortable with those being on my site. very reasonable; i'm not comfortable with photos of myself being on my site either. (i think there's one or two exceptions, but they're low res and dithered...) the idea of going through the archive and redacting all photos of us really bums me out, so i keep putting it off. makes me dream about making a private website only accessible by friends and family. maybe on a flash drive i carry around?
 - page for pride flags to link to (resources? art showcase?)
-- greenhouse (botany hub)
+- greenhouse and/or garden (botany hub)
 - houseplant log
 - allium appreciation zone
 - some kind of guymaker with [flickguy](https://kool.tools/flickguy/) (bug? mech?)
+- ground treasures
+- [traveling gnome](https://en.wikipedia.org/wiki/Travelling_gnome) style gallery/journal but not a gnome... something else
+- collage of bug photos from my trip to singapore
+- bestiary
+	- links to existing beast-centric pages
+	- hub for *NEW* beast-centric pages

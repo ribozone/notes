@@ -22,19 +22,16 @@ navigation guide: [[meta/index|internal links]] | [external links](http://endles
 
 ## recently updated
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "Page", file.mday as "Last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link as "Page", file.mday as "Last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 7 -->
 
-| Page                                              | Last modified |
+| page                                              | last modified |
 | ------------------------------------------------- | ------------- |
-| [[neocities]]                   | Mar 10, 2025  |
+| [[bitsy]]             | Mar 16, 2025  |
+| [[ideas]]                  | Mar 15, 2025  |
+| [[link hunting]]             | Mar 15, 2025  |
+| [[neocities]]                   | Mar 15, 2025  |
+| [[videos]]                       | Mar 10, 2025  |
 | [[solar synth]] | Mar 10, 2025  |
 | [[accordion]]     | Mar 10, 2025  |
-| [[ideas]]                  | Mar 10, 2025  |
-| [[videos]]                       | Mar 10, 2025  |
-| [[metaphors]]          | Mar 8, 2025   |
-| [[2025 releases]]         | Mar 7, 2025   |
-| [[steam next fest]]     | Mar 3, 2025   |
 <!-- SerializedQuery END -->
-
-

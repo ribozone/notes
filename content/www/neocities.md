@@ -5,6 +5,7 @@ draft: false
 tags:
 ---
 
+- [source code activity](https://github.com/neocities/neocities/activity) on github
 - [some undocumented neocities mechanics](https://suboptimalism.neocities.org/writings/undocumented) by suboptimalism
 
 ## hiding ui elements with css

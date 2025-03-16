@@ -7,7 +7,7 @@ tags:
 
 ## Link blogs
 - [in dark trees](https://indarktrees.com/roundups/)
-- [Naive Weekly](https://www.naiveweekly.com/archive)
+- [Naive Weekly](https://www.naiveweekly.com/archive) (substack ☹️)
 ## Meta-directories
 - [Brisray's Webring List](https://brisray.com/web/webring-list.htm)
 	- More than a list, really. A comprehensive, regularly-maintained, sortable database
@@ -25,3 +25,7 @@ tags:
 	- [Chia's poetic web](https://www.are.na/chia/poetic-web)
 - bluesky feeds
 	- [World Wide Web](https://bsky.app/profile/ribo.zone/feed/aaai2qt6lgrng) (I made this)
+	- [Trending Links](https://bsky.app/profile/why.bsky.team/feed/links) (interesting, but not very fun)
+- forums
+	- 32-Bit Cafe's [Links Around the Web](https://discourse.32bit.cafe/c/links/45) category
+	- Melonland's [Hyperlinks](https://forum.melonland.net/index.php?board=37.0) board
