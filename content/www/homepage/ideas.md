@@ -30,3 +30,4 @@ written for my own reference, but feel free to take an idea if it speaks to you.
 - bestiary
 	- links to existing beast-centric pages
 	- hub for *NEW* beast-centric pages
+  - herbarium

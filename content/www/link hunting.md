@@ -7,7 +7,8 @@ tags:
 
 ## Link blogs
 - [in dark trees](https://indarktrees.com/roundups/)
-- [Naive Weekly](https://www.naiveweekly.com/archive) (substack ☹️)
+- Substack (horrible platform, only made tolerable through RSS)
+	- [Naive Weekly](https://www.naiveweekly.com/feed)
 ## Meta-directories
 - [Brisray's Webring List](https://brisray.com/web/webring-list.htm)
 	- More than a list, really. A comprehensive, regularly-maintained, sortable database
