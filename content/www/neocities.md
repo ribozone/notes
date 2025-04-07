@@ -2,7 +2,9 @@
 title: neocities
 description: 
 draft: false
-tags:
+tags: 
+created: 2025-03-08
+modified: 2025-04-07T18:51:20-04:00
 ---
 
 - [source code activity](https://github.com/neocities/neocities/activity) on github

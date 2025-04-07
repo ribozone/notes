@@ -4,6 +4,8 @@ description: circuits and sunshine
 draft: false
 tags:
   - DIY
+created: 2025-03-03
+modified: 2025-04-07T18:59:15-04:00
 ---
 
 ## inspiration

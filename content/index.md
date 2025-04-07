@@ -2,7 +2,9 @@
 title: everything reminds me of everything else
 description: home of ribonotes
 draft: false
-tags:
+tags: 
+created: 2025-03-03T21:37:00
+modified: 2025-04-07T18:05:44-04:00
 ---
 
 ```
@@ -16,23 +18,34 @@ tags:
 
 ```
 
-drafts and lists and rambling i don't feel like putting on my homepage for whatever reason 
+drafts and lists and rambling i don't feel like putting on my homepage for whatever reason
 
-navigation guide: [[meta/index|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
+navigation guide: [[meta/index|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone) 
 
+---
 ## recently updated
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
+<style>
+	table { width: calc(100% - 2rem); }
+	td, th {
+		max-width: 21vw;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+</style>
 
-| page                                              | last modified |
-| ------------------------------------------------- | ------------- |
-| [[ideas]]                  | Apr 2, 2025   |
-| [[link hunting]]             | Mar 28, 2025  |
-| [[metaphors]]          | Mar 26, 2025  |
-| [[bitsy]]             | Mar 16, 2025  |
-| [[neocities]]                   | Mar 15, 2025  |
-| [[videos]]                       | Mar 10, 2025  |
-| [[solar synth]] | Mar 10, 2025  |
-| [[accordion]]     | Mar 10, 2025  |
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 8 -->
+
+| page                                        | folder       | last modified |
+| ------------------------------------------- | ------------ | ------------- |
+| [[frontmatter]]   | templates    | Apr 7, 2025   |
+| [[2025 releases]]   | music        | Apr 7, 2025   |
+| [[ideas]]            | www/homepage | Apr 7, 2025   |
+| [[spore dispersal]] | www          | Apr 7, 2025   |
+| [[neocities]]             | www          | Apr 7, 2025   |
+| [[link hunting]]       | www          | Apr 7, 2025   |
+| [[metaphors]]    | www/homepage | Apr 7, 2025   |
+| [[videos]]                 | music        | Apr 7, 2025   |
 <!-- SerializedQuery END -->

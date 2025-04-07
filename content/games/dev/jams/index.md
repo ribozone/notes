@@ -2,7 +2,9 @@
 title: game jams
 description: 
 draft: false
-tags:
+tags: 
+created: 2025-03-16
+modified: 2025-04-07T19:01:57-04:00
 ---
 
 i have fun participating in web-based [code jams](https://ribo.zone/sunday), so i think it might be fun to make something for a game jam too

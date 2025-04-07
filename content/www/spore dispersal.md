@@ -2,7 +2,9 @@
 title: spore dispersal
 description: my random link portal
 draft: false
-tags:
+tags: 
+created: 2025-03-03
+modified: 2025-04-07T18:43:01-04:00
 ---
 
 ## [Disperse!](https://spore.ribo.zone/)

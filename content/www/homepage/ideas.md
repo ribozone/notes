@@ -2,7 +2,9 @@
 title: webpage ideas
 description: 
 draft: false
-tags:
+tags: 
+created: 2025-03-08
+modified: 2025-04-07T18:56:38-04:00
 ---
 
 > [!info] reminder to self: this is not a to-do list
@@ -30,4 +32,4 @@ written for my own reference, but feel free to take an idea if it speaks to you.
 - bestiary
 	- links to existing beast-centric pages
 	- hub for *NEW* beast-centric pages
-  - herbarium
+- herbarium

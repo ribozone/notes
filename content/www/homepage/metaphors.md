@@ -2,7 +2,9 @@
 title: personal site as a metaphor
 description: 
 draft: false
-tags:
+tags: 
+created: 2025-03-08
+modified: 2025-04-07T18:56:08-04:00
 ---
 
 personal website as a home, as a garden, as a notebook etc etc

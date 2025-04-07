@@ -1,8 +1,10 @@
 ---
-title: "👁️👁️👂"
+title: 👁️👁️👂
 description: craving the audiovisual experience
 draft: false
-tags:
+tags: 
+created: 2025-03-03
+modified: 2025-04-07T18:57:41-04:00
 ---
 
 ## Promotional videos

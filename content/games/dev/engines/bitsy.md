@@ -2,7 +2,9 @@
 title: bitsy
 description: minimalist game engine
 draft: false
-tags:
+tags: 
+created: 2025-03-03
+modified: 2025-04-07T18:38:02-04:00
 ---
 
 - [official site](https://bitsy.org/)
