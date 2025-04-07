@@ -1,4 +1,4 @@
-import { Date, getDate } from "./Date"
+import { Date, _getDateCustom } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
@@ -16,7 +16,7 @@ interface ContentMetaOptions {
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
-  showComma: true,
+  showComma: false,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -30,8 +30,22 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+        segments.push(
+          <span>✦ created <Date date={_getDateCustom(cfg, fileData, 'created')!} locale={cfg.locale} /></span>
+        )
+
+       // Only show the modified date if it's NOT equal to the created date
+       // Extract the actual date values for comparison
+       const datecreatedValue = _getDateCustom(cfg, fileData, 'created');
+       const datemodifiedValue = _getDateCustom(cfg, fileData,'modified');
+       // Compare the actual date values (ignoring the JSX components)
+       const areDatesNotEqual = datecreatedValue?.getTime() !== datemodifiedValue?.getTime();
+       if (areDatesNotEqual) {
+         segments.push(
+          <span>✦ modified <Date date={_getDateCustom(cfg, fileData,'modified')!} locale={cfg.locale} /></span>
+        )
       }
+    }
 
       // Display reading time if enabled
       if (options.showReadingTime) {
@@ -39,7 +53,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        segments.push(<span>{displayedTime}</span>)
+        segments.push(<span>✦ {displayedTime}</span>)
       }
 
       return (
