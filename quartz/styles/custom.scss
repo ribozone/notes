@@ -47,8 +47,27 @@ ul ul {
     image-rendering: pixelated;
 }
 
+.content-meta {
+    line-height: 1.25;
+    margin: 0.5em 0;
+}
+
 .content-meta span {
     display: inline-block;
-    margin-right: 0.25rem;
+    margin-right: 0.25em;
     text-transform: lowercase;
+}
+
+.content-meta span:last-child {
+    margin-right: 25%;
+}
+
+.page-listing time {
+    text-transform: lowercase;
+}
+
+@media (max-width:800px) {
+    ul {
+        padding-left: 1em;
+    }
 }
