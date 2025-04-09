@@ -4,7 +4,7 @@ description: yay music
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-04-07T18:58:10-04:00
+modified: 2025-04-08T11:12:11-04:00
 ---
 
 ## January
@@ -21,11 +21,11 @@ modified: 2025-04-07T18:58:10-04:00
 
 ## March
 - `07` [anomalies](https://katiedey.bandcamp.com/album/anomalies) by katie dey
-	- you're telling me i could have been bopping around to hope reset for the past 8 years? well, better late than never. i am bopping
+demos and rarities! all of them are new to me somehow. can't believe i could have been bopping around to hope reset for the past 8 years, but better late than never. i am bopping
 
 ## April
 - `04` [Forever Howlong](https://blackcountrynewroad.bandcamp.com/album/forever-howlong) by Black Country, New Road
-	- unfortunately i saw a review on bandcamp that said <q>It's a Kate Bush album and I'm definitely not complaining. So fun.</q> right before listening, so i spent the whole time wishing i was listening to kate bush instead. not bad, just a bit boring in comparison
+unfortunately i saw a review on bandcamp that said <q>It's a Kate Bush album and I'm definitely not complaining. So fun.</q> right before listening, so i spent the whole time wishing i was listening to kate bush instead. not bad, just a bit boring in comparison
 
 ## May
 - `02` [The Scholars](https://carseatheadrest.bandcamp.com/album/the-scholars) by Car Seat Headrest
