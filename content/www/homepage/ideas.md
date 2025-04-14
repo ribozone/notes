@@ -11,7 +11,7 @@ modified: 2025-04-07T18:56:38-04:00
 
 written for my own reference, but feel free to take an idea if it speaks to you. though i caution against following any list of webpage ideas too closely. the most bored i've ever felt working on my site was while making my /now and /uses pages...
 
-- gallery of my neopets drawings from 2005-2007
+- gallery of my neopets drawings from 2005-2007 ☑️ [/neopets/archive](https://ribo.zone/neopets/archive)
 	- have one of my old notebooks, still need to scan it
 	- not sure about the layout. i looked at the petpages i made in that era and it seems like i was using templates and breaking them, so i don't want to do that... maybe something inspired by the [default petpages](http://www.defaultpetpage.fun/)?
 - higley copper coin flip
