@@ -66,8 +66,18 @@ ul ul {
     text-transform: lowercase;
 }
 
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: 2px dotted underline;
+  text-underline-offset: 2px;
+}
+
 @media (max-width:800px) {
     ul {
-        padding-left: 1em;
+        padding-left: 1.025em;
     }
 }
