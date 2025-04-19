@@ -36,7 +36,7 @@ modified: 2025-04-16T13:37:01-04:00
 
 | page                                                 | folder            | last modified |
 | ---------------------------------------------------- | ----------------- | ------------- |
-| [[discmaster jam]] | games/dev/jams    | Apr 16, 2025  |
+| [[discmaster jam]] | games/dev/jams    | Apr 18, 2025  |
 | [[eukaryote story]]    | games/dev         | Apr 16, 2025  |
 | [[ideas]]                     | www/homepage      | Apr 15, 2025  |
 | [[rpgmaker]]          | games/dev/engines | Apr 14, 2025  |

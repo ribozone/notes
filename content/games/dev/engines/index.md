@@ -4,7 +4,7 @@ description: tools to make games
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-04-08T12:24:17-04:00
+modified: 2025-04-17T08:53:27-04:00
 ---
 
 ## have tried
@@ -12,6 +12,7 @@ modified: 2025-04-08T12:24:17-04:00
 - [[bitsy]]
 - [[rpgmaker]]
 - [GB studio](https://www.gbstudio.dev/)
+- [Godot](https://godotengine.org/)
 
 ## yet to try
 
@@ -20,6 +21,6 @@ modified: 2025-04-08T12:24:17-04:00
 - [Videotome](https://itch.io/blog/454075/words-friction-syntax-stuff-i-thought-about-when-making-videotome)
 - [PICO-8](https://www.lexaloffle.com/pico-8.php)
 - [OHRRPGCE](https://rpg.hamsterrepublic.com/ohrrpgce/Main_Page)
-- [Godot](https://godotengine.org/)
+
 
 ---
