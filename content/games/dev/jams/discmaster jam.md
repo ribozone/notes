@@ -89,7 +89,7 @@ tags:
 	- i search for "crow" and get only crowbars
 	- i search for "apple" and get only grappling hooks
 	- easy to find weapons, harder to find living things 
-		- most of the animals i'm finding were made to be enemies to be killed
+		- most of the animals i'm finding were made as enemies to be killed
 			- [this cricket model](https://discmaster.textfiles.com/view/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/cricket.mdl/cricket.glb) has red eyes and two of the associated animations are "angry" and "die"
 				- i'll probably have to edit the eyes
 		- (less true if you look at all file types but i'm looking for .glbs specifically)
@@ -110,10 +110,35 @@ tags:
 - clicked around and skimmed parts of [godot docs > manual](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html)
 	- use [RichTextLabel](https://docs.godotengine.org/en/stable/classes/class_richtextlabel.html#class-richtextlabel) instead of [Label](https://docs.godotengine.org/en/stable/classes/class_label.html#class-label) to use [BBcode](https://docs.godotengine.org/en/stable/tutorials/ui/bbcode_in_richtextlabel.html)
 
+#### april 19<sup>th</sup>
+
+- started [Learn GDScript from Zero](https://gdquest.github.io/learn-gdscript/)
+	- first impression: what the hell did they do to the scroll behavior? i hate it
+		- i'm on my touchscreen laptop and sometimes i like to scroll by swiping on the page directly. that doesn't work at all here
+		- scrolling with two fingers on the trackpad feels off somehow. a bit of lag(?) and it moves by a different amount than i expect every time
+			- so unsettling that i ended up clicking and dragging the scrollbar instead
+	- also i can't highlight text
+	- "Engineers at Tesla also used it for their cars' dashboards." (typed by hand because i can't highlight text)
+	- fuck this actually. who cares
+- no more tutorials until the jam starts, lest i get so bored i give up entirely
+	- boring: "here's how you make a game" -> i make a game exactly as taught
+	- fun: "i want to make a game that does x, y, and z" -> i look up how to accomplish x, y, and z
+	- agreed upon foundational knowledge is great for professionals and teams, but i'm just here to play with toys
+
+### jam time
+
+#### april 20<sup>th</sup>
+
+- the jam starts <big>**today!!**</big> but at 10pm local time
+	- that's bed time
+	- started getting sleeping at around 8:30 (remember that i'm recovering from a cold ok), but stayed awake long enough to get the discmaster care package
+		- mine has [wildflowers](https://discmaster.textfiles.com/search?family=image&itemid=3801&widthMin=200&heightMin=200) in it ⚘⚘⚘⚘⚘ 
+- goodnight gamers
+
 ## interesting assets
 
 📁 = folder
-✔️ = used in my game (none yet! the jam hasn't started)
+✔️ = used in my game
 
 > [!example]- poly
 > - fauna
@@ -128,11 +153,14 @@ tags:
 > 	- [plant_pod2.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/NaturalSelection/ns_install_v3_b1.exe/%7Bapp%7D/nsp/models/ns_origin/plant_pod2.mdl)
 > 	-  📁 [many trees, bushes, rocks](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/TheBattleGrounds/bg-1.2.1.exe/$INSTDIR/bg/models/other) 
 > - structures
-> 	- [bord.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/bord.mdl/bord.glb) + [hydrant.glb](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/hydrant.mdl) + [outsidebench.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/outsidebench.mdl)
+> 	- [bord.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/bord.mdl/bord.glb) + [hydrant.glb](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/hydrant.mdl) + [outsidebench.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/outsidebench.mdl) + [shelf.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/shelf.mdl)
 > 	 - [washbowl.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/washbowl.mdl/washbowl.glb) + [toilette.glb](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/toilette.mdl)
 > 	- [big_water_tower.glb](https://discmaster.textfiles.com/view/22716/JOY149_CD2.iso/Data/Sharewares/Jeux/dod_v10.exe/%25MAINDIR%25/dod/models/mapmodels/big_water_tower.mdl/big_water_tower.glb) + [generic_pylon_02.ac](https://discmaster.textfiles.com/view/27106/MF_UK_197_1.iso/pc/DiscContents/Software/Games/FlightGear%201.0r154/FlightGear-1.0.0-r154.dmg/FlightGear.app/Contents/Resources/data/Models/fgfsdb/generic_pylon_02.ac) + [antenna2.mdl](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena2.mdl)
+> - objects
+> 	- books -- [one](https://discmaster.textfiles.com/browse/22889/ACSCD10102.iso/Master_Sword/MasterSword101f.exe/MS/models/misc/book.mdl) + [two](https://discmaster.textfiles.com/browse/22693/126cd2.img/data/sharewares/jeux/ge_beta19full.exe/Main/book.mdl) + [three](https://discmaster.textfiles.com/browse/22454/XENIATGM90.iso/Fragzone/Half-Life/Goldeneye/ge_beta15.exe/Main/book.mdl)
+> 	- [pc.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/pc.mdl/pc.glb)
 > - [forklift.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/fork.mdl/fork.glb)
-> - [pc.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/pc.mdl/pc.glb)
+
 
 
 > [!example]- font
@@ -157,6 +185,10 @@ tags:
 
 > [!example]- audio
 > -  📁 [game programming for teens](https://discmaster.textfiles.com/browse/2758/GameProgrammingForTeens.iso/Sounds)
+> - 📁 [creatures](https://discmaster.textfiles.com/browse/23339/Chip-Cover-CD-2007-02.iso/Hity%20z%20okladki/Anarchy%20Online%2017.0/data1.cab/Anarchy_Online_Files/cd_image/sound/sfx/creatures)
+> - [planet loop](https://discmaster.textfiles.com/view/1105/CU%20Amiga%20Magazine's%20Super%20CD-ROM%2006%20(1996)(EMAP%20Images)(GB)(Track%201%20of%204)[!][issue%201997-01].iso/cucd/sound/phat_trax_samples/drumloops/planet-loop)
+> - [World_Cricket 05.mp3](https://discmaster.textfiles.com/view/2006/AACD%2024.iso/AACD/Sound/SIDTunes/Rodger_Andrew/World_Cricket.sid/World_Cricket%2005.mp3)
+> - [00010_aphex twin loop.wav](https://discmaster.textfiles.com/view/20855/Mac%20Magazin%20and%20MacEasy%20Magazine%20CD%20-%20Issue%2014.iso/Service/Leserecke/J%C3%B6rg%20Hoheisel/Akte%20X%20%E2%81%84%20X%20Files%20Guide/X%20Files%20Episode%20Guide/About/00010_aphex%20twin%20loop.wav)
 
 > [!example]- 📁 archive 
 > - [EE menus.rsrc](https://discmaster.textfiles.com/browse/19410/AppleEarthExplorer.toast.sit.hqx/AppleEarthExplorer.toast/EE%20Resources%C6%92/EE%20Menus/EE%20Menus.rsrc)
