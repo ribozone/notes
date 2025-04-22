@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-18T22:06:31-04:00
+modified: 2025-04-21T21:52:08-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -131,9 +131,98 @@ tags:
 
 - the jam starts <big>**today!!**</big> but at 10pm local time
 	- that's bed time
-	- started getting sleeping at around 8:30 (remember that i'm recovering from a cold ok), but stayed awake long enough to get the discmaster care package
+	- started getting sleepy at around 8:30 (remember that i'm recovering from a cold ok), but stayed awake long enough to get the discmaster care package
 		- mine has [wildflowers](https://discmaster.textfiles.com/search?family=image&itemid=3801&widthMin=200&heightMin=200) in it ⚘⚘⚘⚘⚘ 
 - goodnight gamers
+
+#### april 21<sup>st</sup>
+
+- good morning gamers. i created a new project in godot
+- downloaded the [wad importer](https://github.com/DataPlusProgram/GodotWadImporter) and [greenhouse.wad](https://discmaster.textfiles.com/browse/20919/WADS_D2.iso/doom2/deathmatch/gtoi/greenhouse.zip/Greenhouse.WAD) mentioned on [[#april 15th]]
+	- followed along with the [video demonstration](https://www.youtube.com/watch?v=SkcoE_M1Itc) (youtube link)
+		- put everything in the new project folder
+		- enabled the plugins
+		- imported the map
+			- map is there but has no textures
+		- imported playerguy
+			- playerguy is a white rectangle
+		- pressed play
+			- does not run! godot highlights some errors
+	- when i imported the map, there were multiple options not addressed by the video. i left it as the default "Doom" but maybe i should have selected "Doom Mod" ?
+		- Doom Mod option requires an IWAD and PWAD file path
+			- [IWAD](https://doomwiki.org/wiki/IWAD): internal WAD, all data for a complete game
+			- [PWAD](https://doomwiki.org/wiki/PWAD): patch mod, additional data
+		- okay i see... maybe [greenhouse.wad](https://discmaster.textfiles.com/browse/20919/WADS_D2.iso/doom2/deathmatch/gtoi/greenhouse.zip/Greenhouse.WAD) is a PWAD and i need the base doom IWAD
+			- it's in a folder called [doom2](https://discmaster.textfiles.com/browse/20919/WADS_D2.iso/doom2), so the IWAD might be in there
+			- if not, try [discmaster search for doom2.wad](https://discmaster.textfiles.com/search?q=doom2.wad&dedup=dedup&unsupported=false)
+- stopping here because i have to go to work!
+
+> [!note] lunchtime interlude — themes & goals 
+> as i've used discmaster, the things that have inspired me the most are educational software and screensavers. i'd like to take elements from each kind of program and make a nice digital space to rest and maybe learn a few things.
+> 
+> i have almost zero game dev experience, so i don't have a good sense of what's feasible. regardless, here's my plan:
+> - minimum viable game -- if i can do this, i'll submit it
+> 	- 3D environment that's fun or interesting to be in
+> 		- animated dragonfly model (essential)
+> 	- player can look around, walk, and jump
+> 		- mouse and keyboard support
+> 		- controller support
+> - intermediate goals -- ideally i'll figure these out
+> 	- player can interact with objects in the environment
+> 		- interact with a book to open a pdf from the internet archive
+> 	- start menu screen
+> 		- displays the name of the game
+> 		- start and quit buttons
+> 		- audiovisual transition from the menu to the world
+> - advanced goals -- erm. we'll see
+> 	- multiple maps/rooms
+> 	- some kind of HUD
+> 		- decorative border
+> 		- displays the name of the room you're in
+> 		- compass and clock
+> 			- day and night cycle would be sweet
+> 		- player controls maybe
+> 			- box that shows when/how you can interact with something
+> 	- settings menu
+> 		- volume, mouse sensitivity, Y-axis inversion, adjust shader(s)...?
+> 	- ...mobile support? (maybe after the jam)
+
+- okay yay i'm home from work and i downloaded [DOOM2.WAD](https://discmaster.textfiles.com/browse/11597/ludo28m.free.fr.tar/ludo28m.free.fr/logs/winms/jeux/id/doom2v19.rar/DOOM2.WAD)
+	- reloaded assets with doom2.wad set as the IWAD and greenhouse.wad as the PWAD
+		- imported the map
+			- yaaaay textures
+		- imported playerguy
+			- yaaaay i can see playerguy
+		- pressed play
+		- > [!error] ERROR: core/extension/gdextension_library_loader.cpp:350 - GDExtension only compatible with Godot version 4.3 or earlier: res://addons/godot-jolt/godot-jolt.gdextension
+			- i'm running godot v4.4.1
+- i downloaded [godot 4.3](https://godotengine.org/download/archive/4.3-stable/)
+	- oh yay i can open the project i already started
+	- enabled plugins
+	- pressed play and it RUNS!!!
+- if i delete the `gunManager` node will it run, but with no gun?
+	- > [!error] player.gd:135 @ _ready(): Node not found: "visual/gunManager" (relative to "/root/Node3D/playerguy").
+	- deleted lines 135-145 and from [player.gd](https://github.com/DataPlusProgram/GodotWadImporter/blob/b86288f080f7d0cf631b435ee4012c9f938b75b6/addons/godotWad/scenes/player/player.gd) 
+	- another error
+	- `Ctrl+F` for `weaponManager`
+		- oh god it's everywhere
+	- it would probably better to make my own player character instead of trying to rework this one
+		- don't need 10 million nodes and scripts for my little walking sim
+- back to the map from greenhouse.wad -- it doesn't feel right for this
+	- ceilings too low everywhere except the big slime pit area
+	- i don't think swapping out textures will make it into something i like
+- wad exploration (`Shift+F` to fly around the map)
+	- [GARDEN.WAD](https://discmaster.textfiles.com/browse/20919/WADS_D1.iso/doom2/gtoi/garden1.zip/GARDEN.WAD) -- not sure i'd call any part of this a garden
+	- [garden.wad](https://discmaster.textfiles.com/browse/11272/Mega%20Doom%202.iso/dm2wads/garden/garden.wad) -- this... could work?
+	- [GARDEN2.WAD](https://discmaster.textfiles.com/browse/20919/WADS_D1.iso/doom2/gtoi/garden2.zip/GARDEN2.WAD) -- this one has some sinister looking trees
+	- [LIBRARY.WAD](https://discmaster.textfiles.com/browse/13085/CDRI%20-%20Game%20Box%20Volume%201.iso/014/albrary.zip/LIBRARY.WAD) -- the bookshelf texture is so cute...
+	- [LAB.WAD](https://discmaster.textfiles.com/browse/17678/PowersourceMultimedia-UltimateDOOMCompanion.iso/levels_e/lab.zip/LAB.WAD) -- some wild rooms here
+	- [forest.wad](https://discmaster.textfiles.com/browse/28646/Violence%20in%203D.iso/doom2/forest/forest.wad) -- one big rectangle with a path and a river, plus a bunch of those sinister trees
+- most of the assets i've saved so far are [mdl](https://developer.valvesoftware.com/wiki/MDL) files, but it didn't it occur to me until now to look for quake/goldsrc/source engine maps...
+	- downloaded [godot_bsp_importer](https://github.com/jitspoe/godot_bsp_importer) and enabled the plugin
+	- downloaded and imported a bunch of random maps, nothing stood out
+		- gotta figure out the texture thing described in the README
+		- watched the [video tutorial](https://www.youtube.com/watch?v=RvCyg_lm_7w) but everything is so fast and i am tired
 
 ## interesting assets
 
@@ -158,16 +247,14 @@ tags:
 > 	- [big_water_tower.glb](https://discmaster.textfiles.com/view/22716/JOY149_CD2.iso/Data/Sharewares/Jeux/dod_v10.exe/%25MAINDIR%25/dod/models/mapmodels/big_water_tower.mdl/big_water_tower.glb) + [generic_pylon_02.ac](https://discmaster.textfiles.com/view/27106/MF_UK_197_1.iso/pc/DiscContents/Software/Games/FlightGear%201.0r154/FlightGear-1.0.0-r154.dmg/FlightGear.app/Contents/Resources/data/Models/fgfsdb/generic_pylon_02.ac) + [antenna2.mdl](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena2.mdl)
 > - objects
 > 	- books -- [one](https://discmaster.textfiles.com/browse/22889/ACSCD10102.iso/Master_Sword/MasterSword101f.exe/MS/models/misc/book.mdl) + [two](https://discmaster.textfiles.com/browse/22693/126cd2.img/data/sharewares/jeux/ge_beta19full.exe/Main/book.mdl) + [three](https://discmaster.textfiles.com/browse/22454/XENIATGM90.iso/Fragzone/Half-Life/Goldeneye/ge_beta15.exe/Main/book.mdl)
-> 	- [pc.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/pc.mdl/pc.glb)
+> 	- computers -- [pc.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/pc.mdl/pc.glb) + [pc.mdl](https://discmaster.textfiles.com/browse/11549/Igromania_07.ISO/DeathZone/CounterStrike/Maps/Map_cs_bikini/cs_bikini.rar/models/3dm_pc.mdl) + [pc4.mdl](https://discmaster.textfiles.com/browse/11549/Igromania_07.ISO/DeathZone/CounterStrike/Maps/Map_cs_bikini/cs_bikini.rar/models/3dm_pc4.mdl) + [laptop w/ antenna](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena.mdl)
+> 	- [lab_medical.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/Science&Industry/si97b.exe/%7Bapp%7D/si/models/lab_medical.mdl) -- has what i think is a chemical structure model
 > - [forklift.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/fork.mdl/fork.glb)
-
-
 
 > [!example]- font
 > - [courier-12.fnt](https://discmaster.textfiles.com/view/2194/BUGCD1998_04.ISO/_runtime/_nt4sp3/nt4sp3_i.exe/courfg.fon/Courier-12.fnt) 
 > - [kimdeitch.font](https://discmaster.textfiles.com/view/844/Grafik%20Collection%201.iso/fonts/kimdeitch.font) -- tall
 > -  📁 [amiga bitmap fonts](https://discmaster.textfiles.com/browse/14598/MicroRD-CD-ROM-Vol3-1994.iso/600amigafonts#font)
-
 
 > [!example]- image
 > - [dragonfly_resting_lc.gif](https://discmaster.textfiles.com/view/2735/250K_ANIMATIONS.iso/animations/animals/flies_flying_bugs/dragonfly_resting_lc.gif)
@@ -178,6 +265,8 @@ tags:
 > - [eco.gif](https://discmaster.textfiles.com/view/13427/NASAHPCC.BIN/contents/pubs/annrpt94/eco.gif)
 > - [IMG_ARECIBO.jpg](https://discmaster.textfiles.com/view/14902/MOBICLIC127.ISO/pc/DATA/DSS127/DSS127_02/I_DSS127_02/IMG_ARECIBO.jpg)
 > - [the ozone hole](https://discmaster.textfiles.com/view/955/The%20Learning%20Curve%20(Weird%20Science,%201996).iso/science/ecology/tc_ecology/slideshow2/14)
+> - [euglena.bmp](https://discmaster.textfiles.com/view/14595/MWDICT_100.iso/dict/ill/euglena.bmp)
+> - [beetle03.tif](https://discmaster.textfiles.com/view/657/FM%20Towns%20Free%20Software%20Collection%2010.iso/graphics/tiff/a_miura/beetle03.tif) -- wow
 
 > [!example]- video
 > -  📁 [variety looping movies](https://discmaster.textfiles.com/browse/1430/Great%20Jigsaw%20Puzzles.iso/LIBRARIES/Variety%20Looping%20Movies)
