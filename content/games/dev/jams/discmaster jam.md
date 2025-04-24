@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-21T21:52:08-04:00
+modified: 2025-04-23T22:41:14-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -196,7 +196,7 @@ tags:
 		- pressed play
 		- > [!error] ERROR: core/extension/gdextension_library_loader.cpp:350 - GDExtension only compatible with Godot version 4.3 or earlier: res://addons/godot-jolt/godot-jolt.gdextension
 			- i'm running godot v4.4.1
-- i downloaded [godot 4.3](https://godotengine.org/download/archive/4.3-stable/)
+- downloaded [godot 4.3](https://godotengine.org/download/archive/4.3-stable/)
 	- oh yay i can open the project i already started
 	- enabled plugins
 	- pressed play and it RUNS!!!
@@ -223,6 +223,43 @@ tags:
 	- downloaded and imported a bunch of random maps, nothing stood out
 		- gotta figure out the texture thing described in the README
 		- watched the [video tutorial](https://www.youtube.com/watch?v=RvCyg_lm_7w) but everything is so fast and i am tired
+
+#### april 22<sup>nd</sup>
+
+- [ffxiv patch 7.21](https://na.finalfantasyxiv.com/lodestone/topics/detail/6f824223a7e10da7b9b7dfc84f626d10d4df88b3) was released today, so i'm not going to spend much time on the jam
+- did a little [CSS](https://itch.io/docs/creators/css-guide) to make the game's itch page look more like discmaster
+- little crisis of confidence -- maybe a 3D game is too much?
+	-  wait nevermind [Godot Open Adventure Template (GOAT)](https://github.com/miskatonicstudio/goat) is here to save my life
+- potentially useful tools
+	- [BSP Headquarters](https://www.bspquakeeditor.com/) -- quake map editor with docs and tutorials
+	- [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/) -- source engine level editor
+#### april 23<sup>rd</sup>
+
+- bsp exploration
+	- [garden.bsp](https://discmaster.textfiles.com/view/19256/Shrak%20(USA)/Shrak%20(USA)%20(Track%2001).bin/shrak/shrak/shrak/pak0.pak/maps/garden.bsp) -- middle area has some potential if i can figure out how to change the sky texture, maybe?
+	- [forestsanctuary](https://discmaster.textfiles.com/view/23208/Gamestar_58_2004-01_dvd.iso/DVDStar/Akce/JediAcademy/Mapy/forestsanctuary.zip/forestsanctuary.pk3/maps/forestsanctuary.bsp) -- format not supported by discmaster... but i want to see it...
+		- i tried importing it and godot crashed :(
+	- [padgarden.bsp](https://discmaster.textfiles.com/view/23975/GSSH42002.iso/MODS/Q3a/PadGarden_new.exe/padgarden.pk3/maps/padgarden.bsp) -- ooh a cute backyard. no textures imported though, and i still can't figure out what's going on in the video tutorial for the importer
+	- all of these also had no textures, so i don't have much to say: [lighthouse.bsp](https://discmaster.textfiles.com/view/15688/PCXL12D2.iso/Exes/action_mega_pack.exe/action/maps/lighthouse.bsp),  [avenue1.bsp](https://discmaster.textfiles.com/view/15688/PCXL12D2.iso/Exes/action_mega_pack.exe/action/maps/AVENUE1.BSP), [villagev2.bsp](https://discmaster.textfiles.com/view/15688/PCXL12D2.iso/Exes/action_mega_pack.exe/action/maps/villagev2.bsp), [ruins.bsp](https://discmaster.textfiles.com/view/15688/PCXL12D2.iso/Exes/action_mega_pack.exe/action/maps/ruins.bsp), [town.bsp](https://discmaster.textfiles.com/view/22092/SSERVCD_50B.bin/3d_extra/quake-tc/x-com/xcomb2.zip/Pak0.pak/maps/TOWN.BSP), [wq_town.bsp](https://discmaster.textfiles.com/view/11523/Igromania_11.iso/DeathMatch/Q3_Mods/WesternQuake/wq3b1.exe/western/westernmaps0.pk3/maps/wq_town.bsp), [atomic.bsp](https://discmaster.textfiles.com/view/26837/Dppcz0400b/Dppcz0400b.mdf/Quake%20III%20Arena/Levels/atomic.zip/atomic.pk3/maps/atomic.bsp)
+	- [arch.bsp](https://discmaster.textfiles.com/view/22584/Hrac_11_1997-05_cd.bin/UTILS/QUAKE/LEVELS/ARCH1196.ZIP/ARCH.BSP) -- square room with arches. could make a nice little garden
+- figured out how to swap out some (but not all) of the textures in the quake maps that already have texture
+	- select a 'TransparentMesh' in the scene menu on the left
+	- select 'Surface Material Override' in the inspector menu on the right
+		- \<empty\> -> Quick Load...
+			- (i have a bunch of textures in my project already from importing the those WADs earlier)
+	- oooooh i can access the rest of the walls by selecting 'Mesh' 
+		- had to scroll past many 'TransparentMesh' nodes to find it
+- i feel like i should be able to do the same by selecting '[MeshInstance3D](https://docs.godotengine.org/en/latest/classes/class_meshinstance3d.html)' in the untextured maps, but it isn't working. the colors of things will change but the actual texture isn't showing up
+- [house.bsp](https://discmaster.textfiles.com/view/29705/ibm0880-0889/ibm0885.tar/ibm0885/ETRDKQ09.ZIP/etrnldrk.a08/MAPS/HOUSE.BSP) is looking quite nice, compared to everything else so far
+- installed [GOAT from the asset library](https://godotengine.org/asset-library/asset/2108)
+	- it doesn't include the [demo folder](https://github.com/miskatonicstudio/goat/tree/master/demo) :(
+	- downloaded [v1.1.2](https://github.com/miskatonicstudio/goat/releases/tag/v1.1.2) from github instead
+		- this doesn't include the demo folder either
+	- downloaded master branch as a zip
+		- erm... no demo?!?!?!
+	- cloned repository
+		- finally the demo folder is there. what the hell
+- well, it's getting late. adventure gaming begins tomorrow
 
 ## interesting assets
 
@@ -279,10 +316,20 @@ tags:
 > - [World_Cricket 05.mp3](https://discmaster.textfiles.com/view/2006/AACD%2024.iso/AACD/Sound/SIDTunes/Rodger_Andrew/World_Cricket.sid/World_Cricket%2005.mp3)
 > - [00010_aphex twin loop.wav](https://discmaster.textfiles.com/view/20855/Mac%20Magazin%20and%20MacEasy%20Magazine%20CD%20-%20Issue%2014.iso/Service/Leserecke/J%C3%B6rg%20Hoheisel/Akte%20X%20%E2%81%84%20X%20Files%20Guide/X%20Files%20Episode%20Guide/About/00010_aphex%20twin%20loop.wav)
 
-> [!example]- 📁 archive 
+> [!example]- 📁 archive
 > - [EE menus.rsrc](https://discmaster.textfiles.com/browse/19410/AppleEarthExplorer.toast.sit.hqx/AppleEarthExplorer.toast/EE%20Resources%C6%92/EE%20Menus/EE%20Menus.rsrc)
 > - [Aleph.rsrc](https://discmaster.textfiles.com/browse/16762/pucsofteducativoeinfo.iso/Educaci%C3%B3n/Aleph/Aleph.i/Aleph.i/Aleph/Aleph.rsrc)
 > - [National Geographic: The 1970s](https://discmaster.textfiles.com/browse/15250)
 > 	- [pseudomonas page](https://discmaster.textfiles.com/view/15250/CNG_76_79_September_1976-December_1979.ISO/pc/images/276i/276i0375.jpg)
 > - [Experiments in General Chemistry - Disc 1.iso](https://discmaster.textfiles.com/browse/10951/Experiments%20in%20General%20Chemistry%20-%20Disc%201.iso)
 > - [The Learning Curve (Weird Science, 1996).iso](https://discmaster.textfiles.com/view/955/The%20Learning%20Curve%20(Weird%20Science,%201996).iso)
+> - [bugbook](https://discmaster.textfiles.com/browse/990/cdrt22.iso/pc/bugbook)
+
+<!--
+## final asset list
+
+| File | Format | Size | Date |
+| ---- | ------ | ---- | ---- |
+|      |        |      |      |
+
+-->

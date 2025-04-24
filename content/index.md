@@ -4,7 +4,7 @@ description: ribonotes online
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-04-21T10:37:51-04:00
+modified: 2025-04-23T22:41:43-04:00
 ---
 
 <style>
@@ -36,7 +36,7 @@ modified: 2025-04-21T10:37:51-04:00
 
 | page                                                 | folder            | last modified |
 | ---------------------------------------------------- | ----------------- | ------------- |
-| [[discmaster jam]] | games/dev/jams    | Apr 21, 2025  |
+| [[discmaster jam]] | games/dev/jams    | Apr 23, 2025  |
 | [[eukaryote story]]    | games/dev         | Apr 16, 2025  |
 | [[ideas]]                     | www/homepage      | Apr 15, 2025  |
 | [[rpgmaker]]          | games/dev/engines | Apr 14, 2025  |
