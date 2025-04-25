@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-23T22:41:14-04:00
+modified: 2025-04-24T21:22:03-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -233,6 +233,7 @@ tags:
 - potentially useful tools
 	- [BSP Headquarters](https://www.bspquakeeditor.com/) -- quake map editor with docs and tutorials
 	- [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/) -- source engine level editor
+
 #### april 23<sup>rd</sup>
 
 - bsp exploration
@@ -260,6 +261,45 @@ tags:
 	- cloned repository
 		- finally the demo folder is there. what the hell
 - well, it's getting late. adventure gaming begins tomorrow
+
+#### april 24<sup>th</sup>
+
+- i know that it probably would have been faster to throw together my own four wall map in godot, but i'm so committed to using an existing map from discmaster at this point
+	- pushing the 100% discmaster asset use rule as far as it will go...
+- following [goat docs > getting started > installation](https://miskatonicstudio-goat.readthedocs.io/en/latest/getting_started/installation.html)
+	- main menu, settings, credit, and exit work, but if i click "play" in game...
+		- > [!error] Attempt to call function 'get_next_dialogue_line' in base 'null instance' on a null instance.
+		- little yellow triangle next to line 62 of [goat_voice.gd](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/globals/goat_voice.gd)
+			- looks like an indentation error?
+		- intent line 62 -> run game -> press play -> it works :-)
+- quickly read [goat docs > features](https://miskatonicstudio-goat.readthedocs.io/en/latest/features/player.html)
+	- i think this will work for me
+- changing the font
+	- converted [courier-12.fnt](https://discmaster.textfiles.com/view/2194/BUGCD1998_04.ISO/_runtime/_nt4sp3/nt4sp3_i.exe/courfg.fon/Courier-12.fnt) to .ttf
+	- made a fonts folder in the demo folder (the tutorial said it would be there, but it wasn't) -> added courier
+	- read the first paragraph or so of [godot docs > ui > using fonts](https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_fonts.html)
+	- read most of [godot docs > ui > using the theme editor](https://docs.godotengine.org/en/stable/tutorials/ui/gui_using_theme_editor.html) and got confused
+		- made a new theme with courier, applied it to the menu scenes, but it did nothing. sad
+	- applying the font through theme overrides in the inspector does work though
+		- there aren't many text labels, so it's not too painful to change them individually...
+- replacing demo map with a beautiful .bsp
+	- added and enabled [godot_bsp_importer](https://github.com/jitspoe/godot_bsp_importer) in this new project
+	- more bsp exploration
+		- [stoneh.bsp](https://discmaster.textfiles.com/view/22004/Qoole%20for%20Quake%20(USA)/Qoole%20for%20Quake%20(USA).bin/Levels/stoneh/stoneh.bsp) -- heheh it's stonehenge
+		- [courtyrd.bsp](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp) -- oh my god... this is the one i think
+	- added Courtyrd as a child of Gameplay and deleted Workshop
+- run current scene -> Player can walk around Courtyrd!! wow
+	- Player gets stuck on certain parts of the map
+		- stuck = can only look around, no walking
+		- moved Player's [CollisionShape3D](https://docs.godotengine.org/en/stable/classes/class_collisionshape3d.html) up a little bit -> no more getting stuck
+	- where Player was getting stuck before still has an invisible wall... why?
+		- starting Player on other side of it allows access to the other half of the map, but the wall is still there
+		- shrunk CollisionShape3D to 10% of its original size -> Player can move without hitting invisible walls yay
+			- too small! now Player can walk through fence
+			- 50% works nicely
+	- Player cannot climb stairs 
+		- problem for another day
+		- should the player glide up? or jump?
 
 ## interesting assets
 
@@ -304,6 +344,7 @@ tags:
 > - [the ozone hole](https://discmaster.textfiles.com/view/955/The%20Learning%20Curve%20(Weird%20Science,%201996).iso/science/ecology/tc_ecology/slideshow2/14)
 > - [euglena.bmp](https://discmaster.textfiles.com/view/14595/MWDICT_100.iso/dict/ill/euglena.bmp)
 > - [beetle03.tif](https://discmaster.textfiles.com/view/657/FM%20Towns%20Free%20Software%20Collection%2010.iso/graphics/tiff/a_miura/beetle03.tif) -- wow
+> - 📁 [kde icons](https://discmaster.textfiles.com/browse/1051/Amiga%20Format%20CD40%20(1999-05-11)(Future%20Publishing)(GB)(Track%201%20of%203)[!][issue%201999-06].iso/-in_the_mag-/linuxppc/redhat/rpms/kdebase-1.0-1b.ppc.rpm/kdebase-1.0.1b.cpio.gz/kdebase-1.0.1b.cpio/opt/kde/share/icons)
 
 > [!example]- video
 > -  📁 [variety looping movies](https://discmaster.textfiles.com/browse/1430/Great%20Jigsaw%20Puzzles.iso/LIBRARIES/Variety%20Looping%20Movies)
@@ -324,6 +365,8 @@ tags:
 > - [Experiments in General Chemistry - Disc 1.iso](https://discmaster.textfiles.com/browse/10951/Experiments%20in%20General%20Chemistry%20-%20Disc%201.iso)
 > - [The Learning Curve (Weird Science, 1996).iso](https://discmaster.textfiles.com/view/955/The%20Learning%20Curve%20(Weird%20Science,%201996).iso)
 > - [bugbook](https://discmaster.textfiles.com/browse/990/cdrt22.iso/pc/bugbook)
+> - [Corporate Video Backgrounds.iso](https://discmaster.textfiles.com/browse/417/Corporate%20Video%20Backgrounds.iso)
+> - [Qoole for Quake (USA).bin](https://discmaster.textfiles.com/browse/22004/Qoole%20for%20Quake%20(USA)/Qoole%20for%20Quake%20(USA).bin)
 
 <!--
 ## final asset list
