@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-24T21:22:03-04:00
+modified: 2025-04-25T22:11:48-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -273,7 +273,7 @@ tags:
 			- looks like an indentation error?
 		- intent line 62 -> run game -> press play -> it works :-)
 - quickly read [goat docs > features](https://miskatonicstudio-goat.readthedocs.io/en/latest/features/player.html)
-	- i think this will work for me
+	- i think this will work well for me! 
 - changing the font
 	- converted [courier-12.fnt](https://discmaster.textfiles.com/view/2194/BUGCD1998_04.ISO/_runtime/_nt4sp3/nt4sp3_i.exe/courfg.fon/Courier-12.fnt) to .ttf
 	- made a fonts folder in the demo folder (the tutorial said it would be there, but it wasn't) -> added courier
@@ -299,7 +299,38 @@ tags:
 			- 50% works nicely
 	- Player cannot climb stairs 
 		- problem for another day
-		- should the player glide up? or jump?
+		- should Player glide up? or jump?
+
+#### april 25<sup>th</sup>
+
+> <small>[r/godot](https://www.reddit.com/r/godot/comments/18d2op4/how_do_i_make_a_ramp/) • 1 yr. ago</small>
+> <small>[deleted]</small>
+>
+> <big>**How do i make a ramp.**</big>
+>
+> Beginner here, im making as a first game a platforming game, but, to gain verticality instead of jumping you use ramps and jump pads. My question is, how do you do you pull a ramp off? Is there some special scripting involved or do i literally just... like... make a prism with a shallow angle.
+>
+> EDIT: I figured it out. Im and idiot.
+> 
+> STEP 1: Make a triangle
+>
+> STEP 2: Profit
+
+- made [CollisionShape3D](https://docs.godotengine.org/en/stable/classes/class_collisionshape3d.html) as child of [StaticBody](https://docs.godotengine.org/en/stable/classes/class_staticbody3d.html) in Courtyrd.tscn
+	- set shape to [BoxShape3D](https://docs.godotengine.org/en/stable/classes/class_boxshape3d.html) and adjust so that it's a ramp over some stairs
+	- doesn't work
+		- noooo the reddit post made me think it would be easy
+- didn't take good notes while i was banging my head against the wall trying to get Player up the ramp
+- finally got it to a point where Player could go up the ramp but sometimes (?!) not down the ramp
+	- with Player selected, i turned gravity enabled to 'on' and motion mode to 'grounded' in the inspector
+	- also increased the floor max angle.
+- looked closer at [Player.gd](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/main_scenes/Player.gd) for clues
+	- added `apply_floor_snap()` to a new line under [move_and_slide()](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/main_scenes/Player.gd#L79)
+		- i'm looking through my open tabs and browser history and cannot figure out where i heard of this
+	- noticed a warning symbol in the scene menu next to [GravityTimer](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/main_scenes/Player.tscn#L86)
+		- > [!warning] Very low timer wait times (< 0.05 seconds) may behave in significantly different ways depending on the rendered or physics frame rate. Consider using a script's process loop instead of relying on a Timer for very low wait times.
+		- increased the wait time to 0.05 seconds
+- run scene -> Player reliably moves up and down the ramp
 
 ## interesting assets
 
@@ -310,23 +341,30 @@ tags:
 > - fauna
 > 	- [dragonfly.mdl](https://discmaster.textfiles.com/browse/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/dragonfly.mdl) <3
 > 	- [cricket.mdl](https://discmaster.textfiles.com/browse/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/cricket.mdl) + [butterfly.mdl](https://discmaster.textfiles.com/browse/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/butterfly.mdl) 
-> 	- [fish3.mdl](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/hk_fish3.mdl) + [dogfish.mdl](https://discmaster.textfiles.com/browse/22694/JOYCD127CD_2.iso/data/sharewares/jeux/frontline13.zip/frontline/models/dogfish.mdl) + [gator.mdl](https://discmaster.textfiles.com/browse/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/gator.mdl)
-> 	- [gull1.mdl](https://discmaster.textfiles.com/browse/19273/ftp.winsite.com-win95-games.tar/ftp.winsite.com/pub/pc/win95/games/arctic_rush.exe/%7Bapp%7D/model/gull1.mdl) + [eagle.mdl](https://discmaster.textfiles.com/browse/22695/JOY128_CD1.iso/data/sharewares/wanted15.exe/data1.cab/Game_data/pak0.pak/models/eagle.mdl) + [vulture.mdl](https://discmaster.textfiles.com/browse/22695/JOYCD128_2.iso/data/sharewares/jeux/cm_pack_2-zp.zip/models/vulture.mdl)
+> 	- [fish3.mdl](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/hk_fish3.mdl) + [dogfish.mdl](https://discmaster.textfiles.com/browse/22694/JOYCD127CD_2.iso/data/sharewares/jeux/frontline13.zip/frontline/models/dogfish.mdl) + [gator.mdl](https://discmaster.textfiles.com/browse/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/gator.mdl) + [snake.mdl](https://discmaster.textfiles.com/browse/22695/JOY128_CD1.iso/data/sharewares/wanted15.exe/data1.cab/Game_data/pak0.pak/models/snake.mdl)
+> 	- [gull1.mdl](https://discmaster.textfiles.com/browse/19273/ftp.winsite.com-win95-games.tar/ftp.winsite.com/pub/pc/win95/games/arctic_rush.exe/%7Bapp%7D/model/gull1.mdl) + [eagle.mdl](https://discmaster.textfiles.com/browse/22695/JOY128_CD1.iso/data/sharewares/wanted15.exe/data1.cab/Game_data/pak0.pak/models/eagle.mdl) + [vulture.mdl](https://discmaster.textfiles.com/browse/22695/JOYCD128_2.iso/data/sharewares/jeux/cm_pack_2-zp.zip/models/vulture.mdl) + [parrot.mdl](https://discmaster.textfiles.com/browse/22697/JOYCD130_2.iso/data/sharewares/jeux/pvkb10.exe/Main/p_parrot.mdl)
 > 	- [chicken.mdl](https://discmaster.textfiles.com/browse/22697/JOYCD130_2.iso/data/sharewares/jeux/pvkb10.exe/Main/chicken.mdl) + [cow2.mdl](https://discmaster.textfiles.com/browse/22697/JOYCD130_2.iso/data/sharewares/jeux/pvkb10.exe/Main/cow2.mdl)
 > - flora
 > 	- [swampstuff.mdl](https://discmaster.textfiles.com/browse/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/swampstuff.mdl)
 > 	- mushrooms -- [one](https://discmaster.textfiles.com/view/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/mushroom2.mdl/mushroom2.glb), [two](https://discmaster.textfiles.com/view/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/Mushroom.mdl/Mushroom.glb), [three](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/TheBattleGrounds/bg-1.2.1.exe/$INSTDIR/bg/models/other/mushrooms.mdl/mushrooms.glb), [four](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/TheBattleGrounds/bg-1.2.1.exe/$INSTDIR/bg/models/other/mushroom.mdl/mushroom.glb)
-> 	- [plant_pod2.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/NaturalSelection/ns_install_v3_b1.exe/%7Bapp%7D/nsp/models/ns_origin/plant_pod2.mdl)
-> 	-  📁 [many trees, bushes, rocks](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/TheBattleGrounds/bg-1.2.1.exe/$INSTDIR/bg/models/other) 
+> 	- [plant_pod2.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/NaturalSelection/ns_install_v3_b1.exe/%7Bapp%7D/nsp/models/ns_origin/plant_pod2.mdl) + [trava1.mdl](https://discmaster.textfiles.com/browse/23215/Gamestar_64_2004-07-08_dvd.iso/DVDStar/Ceske_mody/Vlokam2/vlokam2full.rar/vlokam2/models/trava1.mdl) +[lag_plat_ointy88_32.mdl](https://discmaster.textfiles.com/browse/11547/Igromania_04.ISO/DeathZone/Counter-Strike/de_escher19/cstrike.rar/cstrike/models/escher/lag_plat_ointy88_32.mdl) + [herbs.mdl](https://discmaster.textfiles.com/browse/22695/JOY128_CD1.iso/data/sharewares/wanted15.exe/data1.cab/Game_data/pak0.pak/models/herbs.mdl)
+> 	- [gins_yucca.mdl](https://discmaster.textfiles.com/browse/11547/Igromania_04.ISO/DeathZone/Counter-Strike/cs_pacific/cs_pacific.rar/models/cs_pacific/gins_yucca.mdl) + [kvitecka1.glb](https://discmaster.textfiles.com/view/23222/Gamestar_70_2005-02_dvd.iso/DVDStar/Akce/Half-Life/Sic2.exe/Bloodbath/pak0.pak/models/kvitecka1.mdl/kvitecka1.glb) + [gramita.mdl](https://discmaster.textfiles.com/browse/26822/DPPCZ1201B/DPPCZ1201B.ISO/modwatch/FLF/Game%20File/frontline13a.exe/frontline/models/map/gramita.mdl)
+> 	- 📁 [many trees, bushes, rocks](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/TheBattleGrounds/bg-1.2.1.exe/$INSTDIR/bg/models/other) 
+> 	- 📁 [many potted plants](https://discmaster.textfiles.com/browse/26820/DPPCZ1001b/DPPCZ1001b.iso/mods/The%20Opera/opera_r1.exe/disk1/data1.cab/Models)
 > - structures
-> 	- [bord.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/bord.mdl/bord.glb) + [hydrant.glb](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/hydrant.mdl) + [outsidebench.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/outsidebench.mdl) + [shelf.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/shelf.mdl)
+> 	- [bord.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/bord.mdl/bord.glb) + [hydrant.glb](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/hydrant.mdl) + [outsidebench.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/outsidebench.mdl) + [shelf.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/shelf.mdl) + [banco.mdl](https://discmaster.textfiles.com/browse/26822/DPPCZ1201B/DPPCZ1201B.ISO/modwatch/FLF/Game%20File/frontline13a.exe/frontline/models/map/banco.mdl)
 > 	 - [washbowl.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/washbowl.mdl/washbowl.glb) + [toilette.glb](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/toilette.mdl)
-> 	- [big_water_tower.glb](https://discmaster.textfiles.com/view/22716/JOY149_CD2.iso/Data/Sharewares/Jeux/dod_v10.exe/%25MAINDIR%25/dod/models/mapmodels/big_water_tower.mdl/big_water_tower.glb) + [generic_pylon_02.ac](https://discmaster.textfiles.com/view/27106/MF_UK_197_1.iso/pc/DiscContents/Software/Games/FlightGear%201.0r154/FlightGear-1.0.0-r154.dmg/FlightGear.app/Contents/Resources/data/Models/fgfsdb/generic_pylon_02.ac) + [antenna2.mdl](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena2.mdl)
+> 	- [big_water_tower.glb](https://discmaster.textfiles.com/view/22716/JOY149_CD2.iso/Data/Sharewares/Jeux/dod_v10.exe/%25MAINDIR%25/dod/models/mapmodels/big_water_tower.mdl/big_water_tower.glb) + [generic_pylon_02.ac](https://discmaster.textfiles.com/view/27106/MF_UK_197_1.iso/pc/DiscContents/Software/Games/FlightGear%201.0r154/FlightGear-1.0.0-r154.dmg/FlightGear.app/Contents/Resources/data/Models/fgfsdb/generic_pylon_02.ac) + [antenna2.mdl](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena2.mdl) + [radar.glb](https://discmaster.textfiles.com/browse/23215/Gamestar_64_2004-07-08_dvd.iso/DVDStar/Ceske_mody/Vlokam2/vlokam2full.rar/vlokam2/models/Radar.mdl)
 > - objects
-> 	- books -- [one](https://discmaster.textfiles.com/browse/22889/ACSCD10102.iso/Master_Sword/MasterSword101f.exe/MS/models/misc/book.mdl) + [two](https://discmaster.textfiles.com/browse/22693/126cd2.img/data/sharewares/jeux/ge_beta19full.exe/Main/book.mdl) + [three](https://discmaster.textfiles.com/browse/22454/XENIATGM90.iso/Fragzone/Half-Life/Goldeneye/ge_beta15.exe/Main/book.mdl)
+> 	- books -- [one](https://discmaster.textfiles.com/browse/22889/ACSCD10102.iso/Master_Sword/MasterSword101f.exe/MS/models/misc/book.mdl) + [two](https://discmaster.textfiles.com/browse/22693/126cd2.img/data/sharewares/jeux/ge_beta19full.exe/Main/book.mdl) + [three](https://discmaster.textfiles.com/browse/22454/XENIATGM90.iso/Fragzone/Half-Life/Goldeneye/ge_beta15.exe/Main/book.mdl) + [four](https://discmaster.textfiles.com/view/22709/JOY142CD_2.iso/Data/Sharewares/Jeux/svencoop20f.exe/Main/p_spell2.mdl/p_spell2.glb)
 > 	- computers -- [pc.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/pc.mdl/pc.glb) + [pc.mdl](https://discmaster.textfiles.com/browse/11549/Igromania_07.ISO/DeathZone/CounterStrike/Maps/Map_cs_bikini/cs_bikini.rar/models/3dm_pc.mdl) + [pc4.mdl](https://discmaster.textfiles.com/browse/11549/Igromania_07.ISO/DeathZone/CounterStrike/Maps/Map_cs_bikini/cs_bikini.rar/models/3dm_pc4.mdl) + [laptop w/ antenna](https://discmaster.textfiles.com/browse/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena.mdl)
-> 	- [lab_medical.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/Science&Industry/si97b.exe/%7Bapp%7D/si/models/lab_medical.mdl) -- has what i think is a chemical structure model
-> - [forklift.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/fork.mdl/fork.glb)
+> 	- [lab_medical.mdl](https://discmaster.textfiles.com/browse/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/Science&Industry/si97b.exe/%7Bapp%7D/si/models/lab_medical.mdl) + [chem_ammo.mdl](https://discmaster.textfiles.com/view/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/chem_ammo.mdl/chem_ammo.glb) + [health.mdl](https://discmaster.textfiles.com/browse/22707/JOY140_CD2.iso/Data/Sharewares/Jeux/fcs10041005.exe/%25MAINDIR%25/opforup.exe/%25MAINDIR%25/gearbox/models/w_health.mdl)
+> 	- [documents.glb](https://discmaster.textfiles.com/view/28809/CDMM85_1.ISO/Science%20and%20Industry/si97a.exe/%25MAINDIR%25/si/models/resource_documents.mdl/resource_documents.glb) + [cd.glb](https://discmaster.textfiles.com/view/28809/CDMM85_1.ISO/Science%20and%20Industry/si97a.exe/%25MAINDIR%25/si/models/resource_cd.mdl/resource_cd.glb)
+> 	- [mug.mdl](https://discmaster.textfiles.com/browse/11547/Igromania_04.ISO/DeathZone/Counter-Strike/de_escher19/cstrike.rar/cstrike/models/escher/gins_mug.mdl)
+> 	- [forklift.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/fork.mdl/fork.glb)
+> - maps
+> 	- [house.bsp](https://discmaster.textfiles.com/view/29705/ibm0880-0889/ibm0885.tar/ibm0885/ETRDKQ09.ZIP/etrnldrk.a08/MAPS/HOUSE.BSP)
+> 	- [courtyrd.bsp](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp) ✔️
 
 > [!example]- font
 > - [courier-12.fnt](https://discmaster.textfiles.com/view/2194/BUGCD1998_04.ISO/_runtime/_nt4sp3/nt4sp3_i.exe/courfg.fon/Courier-12.fnt) 
@@ -368,11 +406,8 @@ tags:
 > - [Corporate Video Backgrounds.iso](https://discmaster.textfiles.com/browse/417/Corporate%20Video%20Backgrounds.iso)
 > - [Qoole for Quake (USA).bin](https://discmaster.textfiles.com/browse/22004/Qoole%20for%20Quake%20(USA)/Qoole%20for%20Quake%20(USA).bin)
 
-<!--
-## final asset list
+## final asset table
 
-| File | Format | Size | Date |
-| ---- | ------ | ---- | ---- |
-|      |        |      |      |
-
--->
+| File                                                                                                           | Format    | Size     | Date       |
+| -------------------------------------------------------------------------------------------------------------- | --------- | -------- | ---------- |
+| [courtyrd.bsp](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp) | Quake Map | 494.4 KB | 1996-08-14 |
