@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-25T22:11:48-04:00
+modified: 2025-04-26T22:44:46-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -322,6 +322,7 @@ tags:
 		- noooo the reddit post made me think it would be easy
 - didn't take good notes while i was banging my head against the wall trying to get Player up the ramp
 - finally got it to a point where Player could go up the ramp but sometimes (?!) not down the ramp
+	- either getting stuck at the top or floating over the ramp
 	- with Player selected, i turned gravity enabled to 'on' and motion mode to 'grounded' in the inspector
 	- also increased the floor max angle.
 - looked closer at [Player.gd](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/main_scenes/Player.gd) for clues
@@ -330,7 +331,40 @@ tags:
 	- noticed a warning symbol in the scene menu next to [GravityTimer](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/main_scenes/Player.tscn#L86)
 		- > [!warning] Very low timer wait times (< 0.05 seconds) may behave in significantly different ways depending on the rendered or physics frame rate. Consider using a script's process loop instead of relying on a Timer for very low wait times.
 		- increased the wait time to 0.05 seconds
-- run scene -> Player reliably moves up and down the ramp
+- run scene -> Player reliably moves up and down the ramp -> yaaaay
+
+#### april 26<sup>th</sup>
+
+- made ramps for the other 4 sets of stairs -> the map is navigable!
+- time to decorate
+	- new textures
+		- add new image files to the textures folder
+		- right click an image -> create new resource -> [StandardMaterial3D](https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html) -> doesn't work
+			- tried this because the materials that came with the map are StandardMaterial3D
+		- right click an image -> create new resource -> [CanvasItemMaterial](https://docs.godotengine.org/en/stable/classes/class_canvasitemmaterial.html) -> doesn't work
+			- tried this because it sounded plausible
+		- mess around in the inspector for Courtyrd.tscn's Mesh
+			- surface material override -> New StandardMaterial3D
+				- try specifying path to a texture under 'Resource' -> doesn't work
+				- drag and drop image file from the file menu to the inspector menu
+					- YESSSS THANK YOU DRAG AND DROP
+	- shrank the range of all of the outdoor [lights](https://docs.godotengine.org/en/stable/classes/class_omnilight3d.html) the map came with to zero, replaced with [DirectionalLight3D](https://docs.godotengine.org/en/stable/classes/class_directionallight3d.html)
+		- looks... better? still bad though
+- my game is so ugly and i'm tired of looking at it
+	- took a big long break to walk around and take photos for the [city nature challenge](https://www.citynaturechallenge.org/) happening this weekend 
+		- everything is beautiful actually
+- added a glass block texture to the walls and made them transparent :-)
+	- set transparency to alpha AND change the albedo color to have transparency
+		- i was doing just the first thing for a while and getting frustrated that it didn't work
+	- issue: models disappear when i go to the other side of the wall
+		- fix: disable the [Occluder](https://docs.godotengine.org/en/stable/classes/class_occluderinstance3d.html) in the Mesh
+- played with the lighting more... still feels off
+- threw some plants models into the scene
+	- starting to look like... something
+		- originally, i wanted to go an educational direction, but that's looking less possible to achieve within the remaining jam time
+		- hmmmmmmmm
+		- maybe more abstract? surreal? sci-fi?
+			- what can i say with just a scene?
 
 ## interesting assets
 
@@ -408,6 +442,9 @@ tags:
 
 ## final asset table
 
-| File                                                                                                           | Format    | Size     | Date       |
-| -------------------------------------------------------------------------------------------------------------- | --------- | -------- | ---------- |
-| [courtyrd.bsp](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp) | Quake Map | 494.4 KB | 1996-08-14 |
+| File                                                                                                                                                                                                                    | Format | Size     | Date       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ---------- |
+| [courtyrd](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp)                                                                                                              | .bsp   | 494.4 KB | 1996-08-14 |
+| [d_glass_block](https://discmaster.textfiles.com/view/29945/ibm3290-3299/ibm3298.tar/ibm3298/M-SWT346.ZIP/M-SWAT3.R44/Swatdata/Textures/missiond/d_glass_block.tga)                                                     | .tga   | 64.0 KB  | 1999-11-05 |
+| [detail-concrete](https://discmaster.textfiles.com/view/11562/Igromania_2005-10.iso/Cybersport/Promodes/ChallengeProModeArena/cpma132-full.rar/cpma132-full/baseq3/map_cpm3.pk3/textures/tex-oxide/detail-concrete.jpg) | .jpg   | 10.9 KB  | 2000-08-29 |
+|                                                                                                                                                                                                                         |        |          |            |
