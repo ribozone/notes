@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-26T22:44:46-04:00
+modified: 2025-04-27T23:05:43-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -365,6 +365,56 @@ tags:
 		- hmmmmmmmm
 		- maybe more abstract? surreal? sci-fi?
 			- what can i say with just a scene?
+
+#### april 27<sup>th</sup>
+
+- gave the sky a denim texture. why not
+- added [dithering](https://github.com/Donitzo/godot-color-dither)
+	- [MeshInstance3D](https://docs.godotengine.org/en/latest/classes/class_meshinstance3d.html) as a child of Player's [Camera3D](https://docs.godotengine.org/en/stable/classes/class_camera3d.html) with the color_dither_post_3d shader
+	- it mostly works!
+	- everything dithered except for my beautiful semi-transparent glass blocks, which are now totally invisible
+		- option one: set render priority of the glass block to 1 -> keep transparency, but no dither on the blocks
+			- looks uncanny
+		- option two: learn to program -> write new shader with no issues (no time)
+		- option three: give up on transparency
+		- option four: give up on dithering
+			- goodbye dithering! i love my transparent blocks!
+- added background audio
+	- new scene called Game, containing MainMenu and Gameplay scenes
+	- added [AudioStreamPlayer](https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html) as child of Game
+		- yes autoplay yes looping
+	- play game -> music plays while you're on the menu but turns off when you hit play
+		- [godot docs > autoloads vs internal nodes](https://docs.godotengine.org/en/stable/tutorials/best_practices/autoloads_versus_internal_nodes.html#when-you-should-use-an-autoload) seems to address this? maybe? the page is mostly incomprehensible to me
+		- [godot docs > autoload](https://docs.godotengine.org/en/latest/tutorials/scripting/singletons_autoload.html#autoload) is more clear
+			- Project > Project Settings > Globals > Autoload
+			- add the path to a scene containing the AudioStreamPlayer
+		- play game -> yay music -> press play in the menu -> yaaaaay music
+- made some attempts to get the [goat interactive items ](https://miskatonicstudio-goat.readthedocs.io/en/latest/features/interactive_items.html) system to work
+	- added one of the demo objects to my game -> Player can add it to their inventory
+	- made a new scene in the pickable_items folder for a cool toad
+		- set it up with the same structure and formatting as the demo objects
+	- play game -> toad is there -> hand icon appears when i approach -> game crashes when i click
+		- > [!error] Invalid access to property or key 'toad' on a base object of type 'Dictionary'.
+	- breakpoint on [goat_inventory.gd line 73](https://github.com/miskatonicstudio/goat/blob/master/addons/goat/globals/goat_inventory.gd#L73)
+		- `var icon = _config[item_name].get("icon")`
+		- [goat docs > inventory](https://miskatonicstudio-goat.readthedocs.io/en/latest/features/inventory.html) says the demo is set up with a folder for icons, but it is not
+	- read all 54 comments on [Inventory Wont work](https://github.com/miskatonicstudio/goat/issues/339) issue on github
+		- only more confused now
+	- i do not have time for this. okay. no inventory
+- nightmare scenario! now the game won't run at all
+	- keeps getting stuck on that breakpoint in goat_inventory.gd
+	- if i'm not gonna use it... why not delete the file
+	- play game -> crash again because other scripts depend on that file
+		- erm. delete
+	- cycle of like two dozen rounds of pressing play, crashing, and deleting lines of code that refer to the inventory or voice systems in goat
+		- ...aaaand it's running again!
+- while i'm here deleting things:
+	- removed Settings nodes from the MainMenu and Player scenes because most of the sliders did not work
+		- made pressing esc during gameplay take you to the main menu instead of opening the settings menu
+	- removed crouch input from Player.gd because it was causing the player to clip and/or float around
+- played around with MainMenu style a little
+	- why are there one million dropdown menus
+	- i miss CSS
 
 ## interesting assets
 
