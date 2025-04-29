@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-29T01:28:09-04:00
+modified: 2025-04-29T11:41:32-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -12,6 +12,8 @@ tags:
 - **april 20th** 2025 at 10:00 PM EST -- **april 29th** 2025 at 2:59 AM EST
 - [discmaster](https://discmaster.textfiles.com/) -- a search engine for vintage data hosted on the internet archive
 - [jam page on itch.io](https://itch.io/jam/discmaster-jam)  + [announcement on archive.org](https://blog.archive.org/event/discmaster-game-jam/)
+
+> [!done] my game -> [cloud storage botanical station](https://ribozone.itch.io/cloud)
 
 ## devlog
 
@@ -442,6 +444,17 @@ tags:
 
 - ok yay yaaay it's over
 - goodnight gamers
+
+### post-jam thoughts
+
+#### april 29<sup>th</sup>
+
+- too much energy after submitting my game, so i had a hard time falling asleep
+- woke up feeling good (emotionally) and bad (physically)
+	- glad i didn't give up! it was a lot of work, but i am satisfied
+- okay i still want to figure out how to get the web build working though. not today, but soon
+- very excited to play through the other submissions
+	- planning to list my favorites up at the top of this page
 
 ## interesting assets
 
