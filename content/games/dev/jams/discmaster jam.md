@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-27T23:05:43-04:00
+modified: 2025-04-29T01:28:09-04:00
 title: discmaster jam
 description: 
 draft: false
@@ -12,7 +12,6 @@ tags:
 - **april 20th** 2025 at 10:00 PM EST -- **april 29th** 2025 at 2:59 AM EST
 - [discmaster](https://discmaster.textfiles.com/) -- a search engine for vintage data hosted on the internet archive
 - [jam page on itch.io](https://itch.io/jam/discmaster-jam)  + [announcement on archive.org](https://blog.archive.org/event/discmaster-game-jam/)
-
 
 ## devlog
 
@@ -416,10 +415,35 @@ tags:
 	- why are there one million dropdown menus
 	- i miss CSS
 
-## interesting assets
+#### april 28<sup>th</sup>
 
-📁 = folder
-✔️ = used in my game
+- uuuuaaagh deadline tonight at 3 AM (i will not stay up until 3 AM)
+	- long day at work too aaauuuueeegh
+	- 8 hours left! let's see what i can do
+- really scrambling - no time for notes
+	- too late to learn/add anything really new
+	- mostly adding more models
+		- trying to place everything neatly -> lots of work for little effect -> demoralizing
+		- copy and paste x100 -> yayyyy plants everywhere
+	- did add [WorldEnvironment](https://docs.godotengine.org/en/stable/classes/class_worldenvironment.html) to Courtyrd.tscn
+		- played with every slider until things looked a little less shitty
+- okay i think it's done, i just need to finalize the name...
+- project > export
+	- > [!error] No export template found at the expected path
+	- click on Export Template Manager -> Download from: Best available mirror
+	- Presets: Web (runnable) -> Export Project
+		- > [!error] NetworkError when attempting to fetch resource.
+		- skimmed [godot docs > exporting for the web](https://docs.godotengine.org/en/latest/tutorials/export/exporting_for_web.html)
+			- what the hell is going on here...
+			- kind of devastating. i love the web
+- ooough the background image looks much worse when stretched across my whole screen... but it's after midnight now and i would like to go to bed
+
+🌱 [cloud storage botanical station](https://ribozone.itch.io/cloud) submitted 2 hours before the deadline!
+
+- ok yay yaaay it's over
+- goodnight gamers
+
+## interesting assets
 
 > [!example]- poly
 > - fauna
@@ -448,7 +472,7 @@ tags:
 > 	- [forklift.glb](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/HostileIntent/hostileintent_1.1_full.exe/hostileintent/fork.mdl/fork.glb)
 > - maps
 > 	- [house.bsp](https://discmaster.textfiles.com/view/29705/ibm0880-0889/ibm0885.tar/ibm0885/ETRDKQ09.ZIP/etrnldrk.a08/MAPS/HOUSE.BSP)
-> 	- [courtyrd.bsp](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp) ✔️
+> 	- [courtyrd.bsp](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp) 
 
 > [!example]- font
 > - [courier-12.fnt](https://discmaster.textfiles.com/view/2194/BUGCD1998_04.ISO/_runtime/_nt4sp3/nt4sp3_i.exe/courfg.fon/Courier-12.fnt) 
@@ -494,7 +518,31 @@ tags:
 
 | File                                                                                                                                                                                                                    | Format | Size     | Date       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ---------- |
+| [Courier-12](https://discmaster.textfiles.com/view/2194/BUGCD1998_04.ISO/_runtime/_nt4sp3/nt4sp3_i.exe/courfg.fon/Courier-12.fnt)                                                                                       | .fnt   | 9.8 KB   | 1997-05-01 |
+| [00020_Greenhouse](https://discmaster.textfiles.com/view/28579/VIRTUAL%20[md5%20EC7DB5CC033E38E511F666CE80BCE509].ISO/mac/stills/novak.dir/novak.dir/00020_Greenhouse.png)                                              | .png   | 52.5 KB  | 1995-06-18 |
+| [ARROW1](https://discmaster.textfiles.com/view/811/Monster%20Media%20No.%2011%20(Second%20Quarter%201995)(Monster%20Media,%20Inc.).ISO/os2/icoholic.zip/ARROW1.ICO)                                                     | .ico   | 766 b    | 1995-01-01 |
+| [\_WHITE](https://discmaster.textfiles.com/view/549/Especial%20Multimedia.iso/Multimed/Presenta/PKING330.ZIP/SOURCE/_WHITE.BM_/_WHITE.BM)                                                                               | .bm    | 3.9 KB   | 1995-11-25 |
+| [Black to White-W](https://discmaster.textfiles.com/view/534/epsPRO%203%20Cartoon%20Stock%20(Wayzata%20Technology)%20(1281)%20(1994).iso/mac/Mac/Aldus%20FreeHand/Borders-Wide/Black%20to%20White-W)                    | .svg   | 191.9 KB | 1994-05-18 |
+| [468](https://discmaster.textfiles.com/view/20636/Bug%20Life%203D.iso/Bug.ico/1049/SOUND/468)                                                                                                                           | .ogg   | 1.1 MB   | 2008-09-23 |
 | [courtyrd](https://discmaster.textfiles.com/view/14402/ACWARE10.iso/acware10/levels/courtyrd/courtyrd.bsp)                                                                                                              | .bsp   | 494.4 KB | 1996-08-14 |
 | [d_glass_block](https://discmaster.textfiles.com/view/29945/ibm3290-3299/ibm3298.tar/ibm3298/M-SWT346.ZIP/M-SWAT3.R44/Swatdata/Textures/missiond/d_glass_block.tga)                                                     | .tga   | 64.0 KB  | 1999-11-05 |
 | [detail-concrete](https://discmaster.textfiles.com/view/11562/Igromania_2005-10.iso/Cybersport/Promodes/ChallengeProModeArena/cpma132-full.rar/cpma132-full/baseq3/map_cpm3.pk3/textures/tex-oxide/detail-concrete.jpg) | .jpg   | 10.9 KB  | 2000-08-29 |
-|                                                                                                                                                                                                                         |        |          |            |
+| [textures_marsh_1_4](https://discmaster.textfiles.com/view/12262/Gamblexx0102.iso/demos/Empire_Earth.exe/Disk1/data.ssa/textures_marsh_1_4.sst)                                                                         | .sst   | 6.7 KB   | 2001-09-29 |
+| [denim_2](https://discmaster.textfiles.com/view/2184/Bright%20Ideas%20-%201997-01.iso/pc/demos/rzdemocd/textures/cloth/denim_2)                                                                                         | .pict  | 194.6 KB | 1995-05-12 |
+| [trava1](https://discmaster.textfiles.com/view/23215/Gamestar_64_2004-07-08_dvd.iso/DVDStar/Ceske_mody/Vlokam2/vlokam2full.rar/vlokam2/models/trava1.mdl/trava1.glb)                                                    | .glb   | 17.9 KB  | 2004-03-30 |
+| [kvitecka1](https://discmaster.textfiles.com/view/23222/Gamestar_70_2005-02_dvd.iso/DVDStar/Akce/Half-Life/Sic2.exe/Bloodbath/pak0.pak/models/kvitecka1.mdl/kvitecka1.glb)                                              | .glb   | 57.3 KB  | 2004-12-19 |
+| [gins_leafy](https://discmaster.textfiles.com/view/11547/Igromania_04.ISO/DeathZone/Counter-Strike/de_escher19/cstrike.rar/cstrike/models/escher/gins_leafy.mdl/gins_leafy.glb)                                         | .glb   | 48.7 KB  | 2002-09-14 |
+| [swampstuff](https://discmaster.textfiles.com/view/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/swampstuff.mdl/swampstuff.glb)                           | .glb   | 74.8 KB  | 2001-01-02 |
+| [plant_pod2](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/NaturalSelection/ns_install_v3_b1.exe/%7Bapp%7D/nsp/models/ns_origin/plant_pod2.mdl/plant_pod2.glb)        | .glb   | 225.7 KB | 2004-01-03 |
+| [lag_plat_ointy88_32](https://discmaster.textfiles.com/view/11547/Igromania_04.ISO/DeathZone/Counter-Strike/de_escher19/cstrike.rar/cstrike/models/escher/lag_plat_ointy88_32.mdl/lag_plat_ointy88_32.glb)              | .glb   | 18.3 KB  | 2002-11-19 |
+| [tree2](https://discmaster.textfiles.com/view/23222/Gamestar_70_2005-02_dvd.iso/DVDStar/Akce/Half-Life/Sic2.exe/Bloodbath/pak0.pak/models/tree2.mdl/tree2.glb)                                                          | .glb   | 137.2 KB | 2004-12-19 |
+| [Mushroom](https://discmaster.textfiles.com/view/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/Mushroom.mdl/Mushroom.glb)                                                           | .glb   | 61.9 KB  | 2001-01-14 |
+| [mushroom2](https://discmaster.textfiles.com/view/23173/Gamestar_26_2001-02_cd2.bin/DEMA/gunmandemo.exe/%25MAINDIR%25/rewolf/models/mushroom2.mdl/mushroom2.glb)                                                        | .glb   | 64.1 KB  | 2001-01-14 |
+| [dragonfly](https://discmaster.textfiles.com/view/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/dragonfly.mdl/dragonfly.glb)                              | .glb   | 37.7 KB  | 2001-01-02 |
+| [cricket](https://discmaster.textfiles.com/view/28051/february_2001.iso/intercd/root/Multimedia/%5EGames_Demos/GunMan/setup.exe/%25MAINDIR%25/rewolf/models/cricket.mdl/cricket.glb)                                    | .glb   | 276.2 KB | 2001-01-02 |
+| [fountain2](https://discmaster.textfiles.com/view/23212/Gamestar_61_2004-04_dvdb.iso/DVDStar/Akce/Half-Life/TheBattleGrounds/bg-1.2.1.exe/$INSTDIR/bg/models/other/fountain2.mdl/fountain2.glb)                         | .glb   | 870.1 KB | 2004-03-11 |
+| [antena](https://discmaster.textfiles.com/view/22706/JOY139CD2.iso/Data/Sharewares/Jeux/frontline16.exe/frontline/models/antena.mdl/antena.glb)                                                                         | .glb   | 318.3 KB | 2001-02-22 |
+| [Radar](https://discmaster.textfiles.com/view/23215/Gamestar_64_2004-07-08_dvd.iso/DVDStar/Ceske_mody/Vlokam2/vlokam2full.rar/vlokam2/models/Radar.mdl/Radar.glb)                                                       | .glb   | 250.9 KB | 2000-11-08 |
+| [generator](https://discmaster.textfiles.com/view/11547/Igromania_04.ISO/DeathZone/Counter-Strike/de_escher19/cstrike.rar/cstrike/models/escher/generator.mdl/generator.glb)                                            | .glb   | 101.9 KB | 2003-06-12 |
+| [gins_shelves_b](https://discmaster.textfiles.com/view/11547/Igromania_04.ISO/DeathZone/Counter-Strike/de_escher19/cstrike.rar/cstrike/models/escher/gins_shelves_b.mdl/gins_shelves_b.glb)                             | .glb   | 38.8 KB  | 2003-04-20 |
+| [p_shovel](https://discmaster.textfiles.com/view/23197/Gamestar_48_2003-02_cd2.bin/GSSpecial/TheyHunger3.exe/Hunger/pak1.pak/models/p_shovel.mdl/p_shovel.glb)                                                          | .glb   | 64.1 KB  | 2001-03-26 |
