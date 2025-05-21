@@ -145,6 +145,10 @@ a:hover {
         background: var(--light);
         outline: 1rem solid var(--light);
     }
+    footer {
+        padding-bottom: 1rem;
+        margin-top: -1rem;
+    }
     #graph-container {
         background: var(--light);
     }
