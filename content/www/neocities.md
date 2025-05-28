@@ -31,8 +31,8 @@ view and follower counts have been stressing me out lately, and i had more fun o
 	}
 }
 @-moz-document url-prefix(https://neocities.org/activity) {
-	/* hide comments on the global activity feed */
-	.comment {
+	/* hide text updates on the global activity feed */
+	.news-item.comment {
 		display: none;
 	}
 }

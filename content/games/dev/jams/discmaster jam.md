@@ -1,8 +1,8 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-04-29T11:41:32-04:00
+modified: 2025-05-28T15:29:11-04:00
 title: discmaster jam
-description: 
+description: devlog for cloud storage botanical station
 draft: false
 tags: 
 ---
@@ -14,6 +14,10 @@ tags:
 - [jam page on itch.io](https://itch.io/jam/discmaster-jam)  + [announcement on archive.org](https://blog.archive.org/event/discmaster-game-jam/)
 
 > [!done] my game -> [cloud storage botanical station](https://ribozone.itch.io/cloud)
+
+- **my jam favorites**
+	- [archaeOS](https://illomens.itch.io/archaeos) -- love love love that it gives you a printable zine at the end. so good
+	- [sombrin](https://jetbebop.itch.io/sombrin) -- really nice series of scenes; evokes a feeling that i was trying to reach with my own entry
 
 ## devlog
 
@@ -202,7 +206,7 @@ tags:
 	- enabled plugins
 	- pressed play and it RUNS!!!
 - if i delete the `gunManager` node will it run, but with no gun?
-	- > [!error] player.gd:135 @ _ready(): Node not found: "visual/gunManager" (relative to "/root/Node3D/playerguy").
+	- > [!error] player.gd:135 @ \_ready(): Node not found: "visual/gunManager" (relative to "/root/Node3D/playerguy").
 	- deleted lines 135-145 and from [player.gd](https://github.com/DataPlusProgram/GodotWadImporter/blob/b86288f080f7d0cf631b435ee4012c9f938b75b6/addons/godotWad/scenes/player/player.gd) 
 	- another error
 	- `Ctrl+F` for `weaponManager`
@@ -452,10 +456,22 @@ tags:
 - too much energy after submitting my game, so i had a hard time falling asleep
 - woke up feeling good (emotionally) and bad (physically)
 	- glad i didn't give up! it was a lot of work, but i am satisfied
-- okay i still want to figure out how to get the web build working though. not today, but soon
 - very excited to play through the other submissions
-	- planning to list my favorites up at the top of this page
+	- i'll list my favorites at the top of the page instead of down here at the end
+- exporting to different platforms
+	- i never tested the linux build, but no one's told me it doesn't work so i think we're fine
+	- realized that the web build i tried last night didn't work because i needed to have it run from a webserver (i just opened the .html file)
+		- i made a dummy itch page and uploaded the zip. it mostly works! except pressing quit on the main menu causes it to freeze and hitting escape won't close the game, so i had to close it by closing the browser window completely
+			- not good! i don't want to share it in that state, but i also don't want to make changes to the code while judging is underway
+				- not that i think i'll win! this is mostly an excuse to step away from godot and go back to looking for bugs and playing ffxiv and updating my website
+			- web version postponed but not abandoned 
+				- maybe i'll even be in the mood to try adding touch controls...
+	-  [godot docs > running godot apps on macOS](https://docs.godotengine.org/en/latest/tutorials/export/running_on_macos.html) scared me away from the idea last night, but i've changed my mind. probably better to give people the option if they want it, even if i can't test it myself
+		- my plan is to upload it along with the web version, whenever i get that done
 
+#### may 28<sup>th</sup>
+
+- <big style="font-size:3rem;">congrats <a href="https://itch.io/jam/discmaster-jam/results/discmaster-spelunker">spelunkers</a>!!</big>
 ## interesting assets
 
 > [!example]- poly

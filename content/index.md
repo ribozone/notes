@@ -4,7 +4,7 @@ description: ribonotes online
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-04-29T01:28:21-04:00
+modified: 2025-05-28T15:29:56-04:00
 ---
 
 <style>
@@ -20,8 +20,8 @@ modified: 2025-04-29T01:28:21-04:00
 
 ```
 -. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-. .-.   .-
-  \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ / 
- / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \ 
+  \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /   \   \ /  
+ / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   / \   \   
 '   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'
 ```
 
@@ -36,15 +36,14 @@ modified: 2025-04-29T01:28:21-04:00
 
 | page                                                 | folder            | last modified |
 | ---------------------------------------------------- | ----------------- | ------------- |
-| [[discmaster jam]] | games/dev/jams    | Apr 29, 2025  |
+| [[discmaster jam]] | games/dev/jams    | May 28, 2025  |
+| [[steam next fest]]        | games             | May 23, 2025  |
+| [[neocities]]                      | www               | May 16, 2025  |
+| [[link hunting]]                | www               | May 6, 2025   |
 | [[eukaryote story]]    | games/dev         | Apr 16, 2025  |
 | [[ideas]]                     | www/homepage      | Apr 15, 2025  |
 | [[rpgmaker]]          | games/dev/engines | Apr 14, 2025  |
-| [[link hunting]]                | www               | Apr 10, 2025  |
 | [[shows]]                            | music             | Apr 8, 2025   |
 | [[2025 releases]]            | music             | Apr 8, 2025   |
 | [[bitsy]]                | games/dev/engines | Apr 7, 2025   |
-| [[steam next fest]]        | games             | Apr 7, 2025   |
-| [[solar synth]]    | music/instruments | Apr 7, 2025   |
 <!-- SerializedQuery END -->
-

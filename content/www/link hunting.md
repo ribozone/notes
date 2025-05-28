@@ -26,6 +26,7 @@ modified: 2025-04-10T22:14:05-04:00
 - moonjump.app
 	- the [homepage](https://moonjump.app/) is currently unpleasant to use. I don't like the URL being hidden
 	- instead, I prefer to [jump directly to an are.na link](https://moonjump.app/arena)
+		- update: this doesn't work anymore. devastating
 - wiby's [surprise me!](https://wiby.me/surprise/) button
 - [the forest](https://theforest.link/)
 

@@ -7,7 +7,7 @@ created: 2025-03-03
 modified: 2025-04-08T18:00:30-04:00
 ---
 
-Made with [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz/)
+Made with [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz/); hosted on [GitHub Pages](https://pages.github.com/)
 
 ## Obsidian Plugins
 
