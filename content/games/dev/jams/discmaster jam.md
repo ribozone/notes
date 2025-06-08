@@ -1,6 +1,6 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-05-28T15:29:11-04:00
+modified: 2025-06-08T13:21:03-04:00
 title: discmaster jam
 description: devlog for cloud storage botanical station
 draft: false
@@ -472,6 +472,19 @@ tags:
 #### may 28<sup>th</sup>
 
 - <big style="font-size:3rem;">congrats <a href="https://itch.io/jam/discmaster-jam/results/discmaster-spelunker">spelunkers</a>!!</big>
+
+#### june 8<sup>th</sup>
+
+- opened godot for the first time since last time
+- deleted the "quit" button on the main menu
+- project > export > web (runnable)
+	- left all the settings as they were
+	- zipped everything that was exported
+- uploaded the .zip to itch
+	- in-page embed was behaving strangely (viewport drifting right, fullscreen button cut off), so i set it to launch full-screen
+	- made a few css tweaks
+	- yaaaaaaaay we love the browser
+
 ## interesting assets
 
 > [!example]- poly
