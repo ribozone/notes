@@ -4,12 +4,13 @@ description: charcuterie board for gamers
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-05-28T20:20:25-04:00
+modified: 2025-06-09T19:33:30-04:00
 ---
 
 ## june 2025
 
-- starts june 9
+- [starlight re:volver](https://store.steampowered.com/app/3201010/Starlight_ReVolver/) -- waited almost 10 minutes for a match until i started looking at the steam community discussions (dire). found [this answer](https://steamcommunity.com/app/3201010/discussions/0/604158579076792196/#c604158579076792687) saying they announced an outage on discord (even more dire. booo discord 👎)
+- [danchi days](https://store.steampowered.com/app/3107530/Danchi_Days/) -- loved every minute of this. silly and cute, with a lot to say about aging, nostalgia, and community. the minigames are fun and the in-game internet system is so charming
 
 ## february 2025
 

@@ -36,8 +36,8 @@ modified: 2025-06-08T13:21:32-04:00
 
 | page                                                 | folder            | last modified |
 | ---------------------------------------------------- | ----------------- | ------------- |
+| [[steam next fest]]        | games             | Jun 9, 2025   |
 | [[discmaster jam]] | games/dev/jams    | Jun 8, 2025   |
-| [[steam next fest]]        | games             | May 28, 2025  |
 | [[neocities]]                      | www               | May 16, 2025  |
 | [[link hunting]]                | www               | May 6, 2025   |
 | [[eukaryote story]]    | games/dev         | Apr 16, 2025  |
