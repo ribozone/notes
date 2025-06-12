@@ -9,9 +9,8 @@ modified: 2025-04-10T22:14:05-04:00
 
 ## Link blogs
 
-- [in dark trees](https://indarktrees.com/roundups/)
-- Substack (horrible platform, only made tolerable through RSS)
-	- [Naive Weekly](https://www.naiveweekly.com/feed)
+- [link roundups @ in dark trees](https://indarktrees.com/roundups/)
+- [responses @ maya.land](https://maya.land/responses/)
 
 ## Meta-directories
 
@@ -36,7 +35,7 @@ modified: 2025-04-10T22:14:05-04:00
 	- [Chia's poetic web](https://www.are.na/chia/poetic-web)
 - bluesky feeds
 	- [World Wide Web](https://bsky.app/profile/ribo.zone/feed/aaai2qt6lgrng) (I made this with [skyfeed](https://skyfeed.app/))
-	- [Trending Links](https://bsky.app/profile/why.bsky.team/feed/links) (interesting, but not very fun)
+	- [Trending Links](https://bsky.app/profile/why.bsky.team/feed/links) (sometimes interesting, but not very fun)
 - forums
 	- 32-Bit Cafe's [Links Around the Web](https://discourse.32bit.cafe/c/links/45) category
 	- Melonland's [Hyperlinks](https://forum.melonland.net/index.php?board=37.0) board

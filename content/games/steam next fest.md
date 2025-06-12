@@ -4,13 +4,17 @@ description: charcuterie board for gamers
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-06-09T19:33:30-04:00
+modified: 2025-06-11T22:15:24-04:00
 ---
 
 ## june 2025
 
 - [starlight re:volver](https://store.steampowered.com/app/3201010/Starlight_ReVolver/) -- waited almost 10 minutes for a match until i started looking at the steam community discussions (dire). found [this answer](https://steamcommunity.com/app/3201010/discussions/0/604158579076792196/#c604158579076792687) saying they announced an outage on discord (even more dire. booo discord 👎)
-- [danchi days](https://store.steampowered.com/app/3107530/Danchi_Days/) -- loved every minute of this. silly and cute, with a lot to say about aging, nostalgia, and community. the minigames are fun and the in-game internet system is so charming
+- [danchi days](https://store.steampowered.com/app/3107530/Danchi_Days/) -- loved this. silly and cute, with a lot to say about aging, nostalgia, and community. the minigames are fun and the in-game internet system is so charming. very nice
+- [journey of the garden rose](https://store.steampowered.com/app/3692110/Journey_of_the_Garden_Rose/) -- love the game's style, but the movement felt really bad. unexpected jumping + lurching forward with every attack = gnarly motion sickness after only a few minutes :(
+- [downhill](https://store.steampowered.com/app/3433000/DOWNHILL/) -- ohohohuhuhu yess... very interested in everything going on here. love the mechanics, love the world, LOVE fade... yes i'm backing it on [kickstarter](https://www.kickstarter.com/projects/sisterhoodgames/downhill-a-unique-4th-wall-breaking-arpg)
+- tried starlight re:volver again and actually got into the game. did a dive solo, holding down RMB killed everything so i got bored instantly. died on purpose, but it resurrected me?!? had to die a few more times, then went back to the hub. played the minigame that was like squishmallow 2048. people were in the chat being belligerent. idk what is going on
+- [sinker sound](https://store.steampowered.com/app/3600990/Sinker_sound/) -- yaaaaaaaay i am so bad at this but i am happy
 
 ## february 2025
 
