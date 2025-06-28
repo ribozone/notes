@@ -1,10 +1,10 @@
 ---
-title: personal site as a metaphor
+title: personal site metaphors
 description: 
 draft: false
 tags: 
 created: 2025-03-08
-modified: 2025-04-07T18:56:08-04:00
+modified: 2025-06-27T17:23:19-04:00
 ---
 
 personal website as a home, as a garden, as a notebook etc etc

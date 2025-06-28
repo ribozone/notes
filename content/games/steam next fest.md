@@ -13,8 +13,9 @@ modified: 2025-06-11T22:15:24-04:00
 - [danchi days](https://store.steampowered.com/app/3107530/Danchi_Days/) -- loved this. silly and cute, with a lot to say about aging, nostalgia, and community. the minigames are fun and the in-game internet system is so charming. very nice
 - [journey of the garden rose](https://store.steampowered.com/app/3692110/Journey_of_the_Garden_Rose/) -- love the game's style, but the movement felt really bad. unexpected jumping + lurching forward with every attack = gnarly motion sickness after only a few minutes :(
 - [downhill](https://store.steampowered.com/app/3433000/DOWNHILL/) -- ohohohuhuhu yess... very interested in everything going on here. love the mechanics, love the world, LOVE fade... yes i'm backing it on [kickstarter](https://www.kickstarter.com/projects/sisterhoodgames/downhill-a-unique-4th-wall-breaking-arpg)
-- tried starlight re:volver again and actually got into the game. did a dive solo, holding down RMB killed everything so i got bored instantly. died on purpose, but it resurrected me?!? had to die a few more times, then went back to the hub. played the minigame that was like squishmallow 2048. people were in the chat being belligerent. idk what is going on
+- [starlight re:volver](https://store.steampowered.com/app/3201010/Starlight_ReVolver/) ATTEMPT 2 -- actually got into the game. did a dive solo. holding down RMB killed everything so i got bored instantly. died on purpose, but it resurrected me?!? died a few more times, then went back to the hub. played the minigame that was like squishmallow 2048. people were in the chat being belligerent. idk what is going on
 - [sinker sound](https://store.steampowered.com/app/3600990/Sinker_sound/) -- yaaaaaaaay i am so bad at this but i am happy
+- [april grove](https://store.steampowered.com/app/3622260/April_Grove/) -- i thought this might scratch the itch i sometimes get to log into old school runescape and cut trees, but alas... it did not. cute characters but sooo boring
 
 ## february 2025
 

@@ -4,7 +4,7 @@ description: ribonotes online
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-06-08T13:21:32-04:00
+modified: 2025-06-27T23:13:52-04:00
 ---
 
 <style>
@@ -31,19 +31,21 @@ modified: 2025-06-08T13:21:32-04:00
 
 ## recently updated <small>([RSS](index.xml))</small>
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 10 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.name != this.file.name AND file.folder != "meta" AND draft != true LIMIT 10 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                                 | folder            | last modified |
-| ---------------------------------------------------- | ----------------- | ------------- |
-| [[steam next fest]]        | games             | Jun 11, 2025  |
-| [[link hunting]]                | www               | Jun 11, 2025  |
-| [[discmaster jam]] | games/dev/jams    | Jun 8, 2025   |
-| [[neocities]]                      | www               | May 16, 2025  |
-| [[eukaryote story]]    | games/dev         | Apr 16, 2025  |
-| [[ideas]]                     | www/homepage      | Apr 15, 2025  |
-| [[rpgmaker]]          | games/dev/engines | Apr 14, 2025  |
-| [[shows]]                            | music             | Apr 8, 2025   |
-| [[2025 releases]]            | music             | Apr 8, 2025   |
-| [[bitsy]]                | games/dev/engines | Apr 7, 2025   |
+| page                                              | folder            | last modified |
+| ------------------------------------------------- | ----------------- | ------------- |
+| [[tech/index.md\|index]]                          | tech              | Jun 27, 2025  |
+| [[biology/botany/index.md\|index]]                | biology/botany    | Jun 27, 2025  |
+| [[solar synth]] | music/instruments | Jun 27, 2025  |
+| [[abiogenesis]]  | biology/astrobio  | Jun 27, 2025  |
+| [[www/homepage/index.md\|index]]                  | www/homepage      | Jun 27, 2025  |
+| [[metaphors]]          | www/homepage      | Jun 27, 2025  |
+| [[biology/astrobio/index.md\|index]]              | biology/astrobio  | Jun 27, 2025  |
+| [[biology/index.md\|index]]                       | biology           | Jun 27, 2025  |
+| [[steam next fest]]     | games             | Jun 27, 2025  |
+| [[gardens]]            | biology/botany    | Jun 27, 2025  |
 <!-- SerializedQuery END -->
+
+
