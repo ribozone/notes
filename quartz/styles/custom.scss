@@ -56,6 +56,10 @@ ul ul ul ul {
     list-style-type: circle;
 }
 
+input[type="checkbox"] {
+  border: 1px solid var(--secondary);
+}
+
 .internal {
     padding: 0.1rem 0.2rem !important;
 }
