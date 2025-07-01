@@ -99,7 +99,7 @@ input[type="checkbox"] {
     margin-top: 1.5rem;
 }
 
-.callout-title {
+.callout:has(.callout-content) .callout-title {
     padding: 1rem 0 0.5rem 0;
 }
 
