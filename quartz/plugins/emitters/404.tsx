@@ -10,12 +10,14 @@ import { defaultProcessedContent } from "../vfile"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import * as Component from "../../components"
 
 export const NotFoundPage: QuartzEmitterPlugin = () => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     pageBody: NotFound(),
     beforeBody: [],
+    afterBody: [Component.Search()],
     left: [],
     right: [],
   }
