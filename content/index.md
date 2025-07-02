@@ -4,11 +4,11 @@ description: ribonotes online
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-06-27T23:13:52-04:00
+modified: 2025-07-01T20:39:35-04:00
 ---
 
 <style>
-	table { width: calc(100% - 2rem); }
+	.table-container table { width: calc(100% - 1rem); margin: 0 0.5rem; }
 	td, th {
 		max-width: 21vw;
 		overflow: hidden;
@@ -34,18 +34,16 @@ modified: 2025-06-27T23:13:52-04:00
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                              | folder            | last modified |
-| ------------------------------------------------- | ----------------- | ------------- |
-| [[tech/index.md\|index]]                          | tech              | Jun 27, 2025  |
-| [[biology/botany/index.md\|index]]                | biology/botany    | Jun 27, 2025  |
-| [[solar synth]] | music/instruments | Jun 27, 2025  |
-| [[abiogenesis]]  | biology/astrobio  | Jun 27, 2025  |
-| [[www/homepage/index.md\|index]]                  | www/homepage      | Jun 27, 2025  |
-| [[metaphors]]          | www/homepage      | Jun 27, 2025  |
-| [[biology/astrobio/index.md\|index]]              | biology/astrobio  | Jun 27, 2025  |
-| [[biology/index.md\|index]]                       | biology           | Jun 27, 2025  |
-| [[steam next fest]]     | games             | Jun 27, 2025  |
-| [[gardens]]            | biology/botany    | Jun 27, 2025  |
+| page                                                                     | folder                  | last modified |
+| ------------------------------------------------------------------------ | ----------------------- | ------------- |
+| [[patchwork]]                                          | www                     | Jul 1, 2025   |
+| [[link hunting]]                                    | www                     | Jul 1, 2025   |
+| [[discmaster jam]]                     | games/dev/jams          | Jul 1, 2025   |
+| [[decker fantasy camp 2025]] | games/dev/jams          | Jul 1, 2025   |
+| [[music/index.md\|index]]                                                | music                   | Jul 1, 2025   |
+| [[music/year/index.md\|index]]                                           | music/year              | Jul 1, 2025   |
+| [[www/homepage/index.md\|index]]                                         | www/homepage            | Jul 1, 2025   |
+| [[biology/zoology/birds/index.md\|index]]                                | biology/zoology/birds   | Jul 1, 2025   |
+| [[biology/zoology/mammals/index.md\|index]]                              | biology/zoology/mammals | Jul 1, 2025   |
+| [[meta/index.md\|index]]                                                 | meta                    | Jul 1, 2025   |
 <!-- SerializedQuery END -->
-
-

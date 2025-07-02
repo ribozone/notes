@@ -1,13 +1,13 @@
 ---
 created: 2025-04-11T21:13:11-04:00
-modified: 2025-06-08T13:21:03-04:00
+modified: 2025-07-01T18:35:17-04:00
 title: discmaster jam
 description: devlog for cloud storage botanical station
 draft: false
 tags: 
 ---
 
-> An online-only week-long game jam, using vintage computer files from [archive.org](https://archive.org/).
+> An online-only week-long [[games/dev/jams/index|game jam]], using vintage computer files from [archive.org](https://archive.org/).
 
 - **april 20th** 2025 at 10:00 PM EST -- **april 29th** 2025 at 2:59 AM EST
 - [discmaster](https://discmaster.textfiles.com/) -- a search engine for vintage data hosted on the internet archive

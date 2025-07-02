@@ -4,7 +4,7 @@ description: websurfing unlimited
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-04-10T22:14:05-04:00
+modified: 2025-07-01T20:14:41-04:00
 ---
 
 ## Link blogs
@@ -15,8 +15,9 @@ modified: 2025-04-10T22:14:05-04:00
 ## Meta-directories
 
 - [Brisray's Webring List](https://brisray.com/web/webring-list.htm)
-	- More than a list, really. A comprehensive, regularly-maintained, sortable database
+	- more than a list, really. A comprehensive, regularly-maintained, sortable database of webrings
 - [BUKMARK.CLUB](https://bukmark.club/)
+	- directory of sites with bookmarks/links/blogroll pages
 	- I wish the directory sent you straight to each site's links page. Sometimes they're really tucked away...
 
 ## Random redirect portals 
@@ -27,7 +28,7 @@ modified: 2025-04-10T22:14:05-04:00
 	- instead, I prefer to [jump directly to an are.na link](https://moonjump.app/arena)
 		- update: this doesn't work anymore. devastating
 - wiby's [surprise me!](https://wiby.me/surprise/) button
-- [the forest](https://theforest.link/)
+- [the forest](https://theforest.link/) - pretty dev heavy but there are a few gems occasionally 
 
 ## Social networks
 
