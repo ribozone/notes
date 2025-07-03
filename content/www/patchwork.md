@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T09:39:29-04:00
-modified: 2025-07-01T20:36:53-04:00
+modified: 2025-07-02T22:32:37-04:00
 title: patchwork web manifesto
 description: 
 draft: false
@@ -29,4 +29,9 @@ tags:
 > I evoke the term 'handmade web' in order to draw attention both to the manual labour involved in the composition of web pages, and the functioning of the web page itself as a 'manual', a 'handbook', a set of instructions required for a computer program to run.
 > ~ ~ ~
 > I evoke the term 'handmade web' to suggest slowness and smallness as a forms of resistance.
+
+> [!tip] principles, [permacomputing.net](https://permacomputing.net/principles/)
+> It is good practice to design systems that are resilient and tolerant to interruptions and even if you do not personally believe such scenarios are imminent. This principle invites reflection: why prioritize resilience? Rather than being a defeatist mindset, it is a practical exercise.
+>  ~ ~ ~
+>  Before taking action, it’s important to first observe. [...] What is valuable and beautiful? What is needed? What problem are you trying to solve?
 

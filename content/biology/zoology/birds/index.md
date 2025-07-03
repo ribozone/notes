@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T13:47:54-04:00
-modified: 2025-07-01T20:40:41-04:00
+modified: 2025-07-03T13:17:51-04:00
 title: birds
 description: 
 draft: false
@@ -20,6 +20,7 @@ tags:
 - [birdwatching.zone](https://birdwatching.zone/)
 - sabrin's [bird.diary](https://sabrin.party/shrines/birdies)
 - mio's [The Birds](https://mioasis.neocities.org/shrine/birds)
+- emily's [birds birds birds](https://emily-computer.neocities.org/birding)
 - ratwalks's [Bird Log](https://ratwalks.neocities.org/birdzone/birdzone)
 
 ---

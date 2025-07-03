@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T18:35:19-04:00
-modified: 2025-07-01T20:09:42-04:00
+modified: 2025-07-03T12:57:20-04:00
 title: decker fantasy camp 2025
 description: 
 draft: false
@@ -19,4 +19,16 @@ tags:
 - i joined the [decker visual novel jam](https://itch.io/jam/decker-vn-jam) in may/june, but bailed because i didn't come up with a story idea
 	- i still do want to make a VN in decker... hmmmmmmm...
 	- maybe the "novel" part intimidates me. would it be easier to get started if i call it a poem or a zine?
-- BE BOLD! IT'S [[games/dev/jams/index|JAM]] TIME!
+- **BE BOLD!** IT'S [[games/dev/jams/index|JAM]] TIME!
+
+#### july 2<sup>nd</sup>
+
+- searching my mind for ideas, still not finding any stories
+-  starting from scratch is too hard, so what if i just expand on something i've made in the past? what's an idea that still nags at me?
+	- i think about [ribo.zone/weirdweb/ritual/](https://ribo.zone/weirdweb/ritual/) a lot
+	- omg [pink decker jam](https://itch.io/jam/pink-decker-jam) is still going
+	- whoa... that's it -- pink cell culture point & click
+- deadline is now **July 19th 2025 at 9:41 AM EST** if i want to submit to both jams
+
+#### july 3<sup>rd</sup>
+
