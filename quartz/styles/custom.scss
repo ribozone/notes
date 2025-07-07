@@ -124,6 +124,10 @@ h2:has(.tag-link) {
     gap: 0;
 }
 
+.page-listing .section:has(a[href="../"]) {
+	display: none;
+}
+
 .callout:has(.callout-content) .callout-title {
     padding: 1rem 0 0.5rem 0;
 }
