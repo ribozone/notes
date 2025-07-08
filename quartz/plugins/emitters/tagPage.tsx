@@ -88,7 +88,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
           const title =
             tag === "index"
               ? i18n(cfg.locale).pages.tagContent.tagIndex
-              : `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}`
+              : `#${tag}`
           return [
             tag,
             defaultProcessedContent({
@@ -106,7 +106,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
           if (tags.has(tag)) {
             tagDescriptions[tag] = [tree, file]
             if (file.data.frontmatter?.title === tag) {
-              file.data.frontmatter.title = `${i18n(cfg.locale).pages.tagContent.tag}: ${tag}`
+              file.data.frontmatter.title = `#${tag}`
             }
           }
         }
