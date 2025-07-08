@@ -1,16 +1,17 @@
 ---
 created: 2025-07-01T18:35:19-04:00
-modified: 2025-07-03T12:57:20-04:00
+modified: 2025-07-07T18:27:50-04:00
 title: decker fantasy camp 2025
 description: 
 draft: false
-tags: 
+tags:
+  - 🧫
+  - log
 ---
-> Join us during the month of July to make something -anything- using Decker!
+> Join us during the month of July to make something -anything- using [[decker|Decker]]!
 
 - **July 1st** 2025 at 3:00 AM EST to **August 1st** 2025 at 3:00 AM EST
-- [jam page on itch.io](https://itch.io/jam/decker-fantasy-camp-2025) 
-- [WIP discussion thread](https://itch.io/t/5021349/decker-fantasy-camp-2025-wips-topic)
+- [jam page on itch.io](https://itch.io/jam/decker-fantasy-camp-2025) + [WIP discussion thread](https://itch.io/t/5021349/decker-fantasy-camp-2025-wips-topic)
 
 ## devlog
 
@@ -32,3 +33,10 @@ tags:
 
 #### july 3<sup>rd</sup>
 
+- took some photos in lab today
+	- no plan, just the obvious ones: biohazard labels, hood, microscope, cells
+	- put a few into decker and they look good in 1-bit pink :)
+- not sure if i want to go in a more point & clicky or text-centric direction
+	- at minimum, i could just give each written step from /weirdweb/ritual/ a corresponding photo
+	- i want to do more, but... small scope -> finished game
+- did the css for the itch page 

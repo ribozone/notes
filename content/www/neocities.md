@@ -2,9 +2,10 @@
 title: neocities
 description: 
 draft: false
-tags: 
+tags:
+  - CSS
 created: 2025-03-08
-modified: 2025-04-07T18:51:20-04:00
+modified: 2025-07-07T17:22:20-04:00
 ---
 
 - [source code activity](https://github.com/neocities/neocities/activity) on github

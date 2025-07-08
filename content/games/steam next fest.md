@@ -2,9 +2,10 @@
 title: steam next fest
 description: charcuterie board for gamers
 draft: false
-tags: 
+tags:
+  - log
 created: 2025-03-03
-modified: 2025-06-11T22:15:24-04:00
+modified: 2025-07-07T17:38:30-04:00
 ---
 
 ## june 2025

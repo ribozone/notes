@@ -2,8 +2,7 @@
 title: solar synth
 description: circuits and sunshine
 draft: false
-tags:
-  - DIY
+tags: []
 created: 2025-03-03
 modified: 2025-06-27T23:07:02-04:00
 ---

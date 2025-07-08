@@ -4,7 +4,7 @@ description: ribonotes online
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-07-03T13:18:31-04:00
+modified: 2025-07-07T19:57:04-04:00
 ---
 
 <style>
@@ -16,6 +16,7 @@ modified: 2025-07-03T13:18:31-04:00
 		text-overflow: ellipsis;
 	}
 	pre > code { overflow: hidden; }
+	 .tags { display: none; }
 </style>
 
 ```
@@ -25,7 +26,18 @@ modified: 2025-07-03T13:18:31-04:00
 '   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'
 ```
 
-**link guide:** [[meta/index|internal links]] | [external links](http://endless.horse/) | [links to my main site](https://ribo.zone)
+-  [[meta/index|site meta]] -- how & why i made this site 
+
+**link guide:** [[meta/index|internal links]] | [external links](https://crouton.net/) | [links to my main site](https://ribo.zone)
+
+**tag guide**:
+- #🧫  -- my projects (my petri dishes)
+- #log  -- informal chronological notes
+- pages w/ copy & paste-able code:
+	- #CSS -- cascading style sheets
+	- #PHP  -- hypertext preprocessor
+	- #VB  -- visual basic
+
 
 ---
 
@@ -34,16 +46,16 @@ modified: 2025-07-03T13:18:31-04:00
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                                                     | folder                   | last modified |
-| ------------------------------------------------------------------------ | ------------------------ | ------------- |
-| [[biology/zoology/birds/index.md\|index]]                                | biology/zoology/birds    | Jul 3, 2025   |
-| [[meta/index.md\|index]]                                                 | meta                     | Jul 3, 2025   |
-| [[decker fantasy camp 2025]] | games/dev/jams           | Jul 3, 2025   |
-| [[rubisco]]                         | biology/biochem/proteins | Jul 3, 2025   |
-| [[photosynthesis]]                    | biology/biochem          | Jul 3, 2025   |
-| [[biology/biochem/proteins/index.md\|index]]                             | biology/biochem/proteins | Jul 3, 2025   |
-| [[patchwork]]                                          | www                      | Jul 2, 2025   |
-| [[biology/biochem/index.md\|index]]                                      | biology/biochem          | Jul 2, 2025   |
-| [[music/year/index.md\|index]]                                           | music/year               | Jul 1, 2025   |
-| [[biology/zoology/index.md\|index]]                                      | biology/zoology          | Jul 1, 2025   |
+| page                                                                     | folder            | last modified |
+| ------------------------------------------------------------------------ | ----------------- | ------------- |
+| [[pollination]]                          | biology/ecology   | Jul 7, 2025   |
+| [[photosynthesis]]                    | biology/biochem   | Jul 7, 2025   |
+| [[solar synth]]                        | music/instruments | Jul 7, 2025   |
+| [[shows]]                                                | music             | Jul 7, 2025   |
+| [[decker fantasy camp 2025]] | games/dev/jams    | Jul 7, 2025   |
+| [[2025]]                                             | music/year        | Jul 7, 2025   |
+| [[steam next fest]]                            | games             | Jul 7, 2025   |
+| [[discmaster jam]]                     | games/dev/jams    | Jul 7, 2025   |
+| [[eukaryote story]]                        | games/dev         | Jul 7, 2025   |
+| [[link hunting]]                                    | www               | Jul 7, 2025   |
 <!-- SerializedQuery END -->

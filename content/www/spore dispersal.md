@@ -2,71 +2,40 @@
 title: spore dispersal
 description: my random link portal
 draft: false
-tags: 
+tags:
+  - 🧫
+  - PHP
+  - VB
 created: 2025-03-03
-modified: 2025-04-07T18:43:01-04:00
+modified: 2025-07-07T17:20:03-04:00
 ---
 
-## [Disperse!](https://spore.ribo.zone/)
+my random link redirect site for exploring the [[www/index|world wide web]] 
 
-Context from my blog post about [random site portals](https://ribo.zone/blog/random-site-portals)...
+## [spore.ribo.zone](https://spore.ribo.zone/) 
 
->prioritize:
+>**prioritize:**
 >- databases and archives
 >- community hubs
 >- net art
 >- resources, tutorials, and syllabi
 >
->avoid:
+>**avoid:**
 >- tech giants
 >- commerce and paywalls
 >- productivity tools
 >- websites about making websites
 >- blogs, portfolios, and personal sites
+>
+> --  [random site portals](https://ribo.zone/blog/random-site-portals) (may 19, 2024)
 
-## Page number milestones
+### Page number milestones
 
 | # of pages | Date         |
 | ---------- | ------------ |
 | 100        | I forgot     |
 | 200        | May 19, 2024 |
 | 300        | Feb 03, 2025 |
-
-## Dead link checking
-
-### Visual Basic! in Excel!
-
-```vbscript
-Function CheckURL(url As String)
-
-    Dim request As Object
-    Dim rc As Variant
-    Set request = CreateObject("WinHttp.WinHttpRequest.5.1")
-    On Error GoTo haveError
-
-    With request
-        .Open "HEAD", url, False
-        .Send
-        rc = .StatusText
-    End With
-    
-    Set request = Nothing
-    If rc = "OK" Then CheckURL = True Else CheckURL = False
-    
-    Exit Function
-
-haveError:
-    CheckURL = False
-
-End Function
-```
-Source: [this reddit comment](https://www.reddit.com/r/excel/comments/m86k8a/comment/grgdtwo/)
-
-### Link check log
-
-| Date | # dead | % dead |
-| ---- | ------ | ------ |
-|      |        |        |
 
 ## How it's made
 
@@ -114,3 +83,43 @@ Site count: <?= $size ?>
 ```
 
 Spore dispersal is currently hosted on [InfinityFree](https://www.infinityfree.com/). I don't love it, but it gets the job done.
+
+## Dead link checking
+
+### Visual Basic! in Excel!
+
+runs pretty slow on my laptop! excel will go unresponsive for a bit, but if i wait... it works
+there are always false hits (i assume sites blocking bot behavior?), so i check the reportedly dead links manually before removing them
+
+```vbscript
+Function CheckURL(url As String)
+
+    Dim request As Object
+    Dim rc As Variant
+    Set request = CreateObject("WinHttp.WinHttpRequest.5.1")
+    On Error GoTo haveError
+
+    With request
+        .Open "HEAD", url, False
+        .Send
+        rc = .StatusText
+    End With
+    
+    Set request = Nothing
+    If rc = "OK" Then CheckURL = True Else CheckURL = False
+    
+    Exit Function
+
+haveError:
+    CheckURL = False
+
+End Function
+```
+Source: [this reddit comment](https://www.reddit.com/r/excel/comments/m86k8a/comment/grgdtwo/)
+
+### Link check log
+
+| Date         | # dead | % dead |
+| ------------ | ------ | ------ |
+| july 7, 2025 | 5      | 1.83 % |
+

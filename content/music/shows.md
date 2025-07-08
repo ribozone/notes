@@ -1,11 +1,10 @@
 ---
 created: 2025-04-08T11:12:22-04:00
-modified: 2025-04-08T15:28:28-04:00
+modified: 2025-07-07T18:27:59-04:00
 title: shows
 description: 
 draft: false
-tags:
-  - DIY
+tags: []
 ---
 ## calendars
 
