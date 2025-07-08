@@ -114,17 +114,16 @@ h2:has(.tag-link) {
 
 .page-listing .section .tags {
 	display: none;
+    gap: 0;
 }
 
 .page-listing .section:hover .tags {
 	display: flex;
+    height: 1.6rem;
+    overflow: hidden;
 }
 
-.page-listing ul.tags {
-    gap: 0;
-}
-
-.page-listing .section:has(a[href="../"]) {
+.page-listing .section:has(a[href="../"]), .page-listing .section:has(a[href="/"]) {
 	display: none;
 }
 
@@ -168,6 +167,12 @@ a:hover {
     }
     .center ul.tags {
         display: block;
+    }
+    .page-listing .section:hover .tags {
+        display: none;
+    }
+    li.section-li > .section {
+        grid-template-columns: fit-content(8em) 3fr 0fr;
     }
 }
 

@@ -16,7 +16,7 @@ modified: 2025-07-07T19:57:04-04:00
 		text-overflow: ellipsis;
 	}
 	pre > code { overflow: hidden; }
-	 .tags { display: none; }
+	 .tags { display: none !important; }
 </style>
 
 ```
@@ -48,6 +48,7 @@ modified: 2025-07-07T19:57:04-04:00
 
 | page                                                                     | folder            | last modified |
 | ------------------------------------------------------------------------ | ----------------- | ------------- |
+| [[eukaryote story]]                        | games/dev         | Jul 7, 2025   |
 | [[pollination]]                          | biology/ecology   | Jul 7, 2025   |
 | [[photosynthesis]]                    | biology/biochem   | Jul 7, 2025   |
 | [[solar synth]]                        | music/instruments | Jul 7, 2025   |
@@ -56,6 +57,5 @@ modified: 2025-07-07T19:57:04-04:00
 | [[2025]]                                             | music/year        | Jul 7, 2025   |
 | [[steam next fest]]                            | games             | Jul 7, 2025   |
 | [[discmaster jam]]                     | games/dev/jams    | Jul 7, 2025   |
-| [[eukaryote story]]                        | games/dev         | Jul 7, 2025   |
 | [[link hunting]]                                    | www               | Jul 7, 2025   |
 <!-- SerializedQuery END -->
