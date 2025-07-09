@@ -4,10 +4,14 @@ description: information about how this site is built
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-07-03T13:16:27-04:00
+modified: 2025-07-09T11:49:24-04:00
 ---
 
-Made with [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz/); hosted on [GitHub Pages](https://pages.github.com/)
+- notes written and organized in [Obsidian](https://obsidian.md/) 
+- site generated with [Quartz](https://quartz.jzhao.xyz/)
+- hosted on [GitHub Pages](https://pages.github.com/)
+
+> [!warning] all pages are subject to deletion or reorganization whenever it would be useful for me.
 
 ## Obsidian Plugins
 
@@ -19,7 +23,7 @@ Made with [Obsidian](https://obsidian.md/) and [Quartz](https://quartz.jzhao.xyz
 
 - Headings: [National Park Typeface](https://nationalparktypeface.com/)
 - Body: [National Park Typeface](https://nationalparktypeface.com/)
-- Monospace: your system default
+- Monospace: `your system default`
 
 ## Why?
 

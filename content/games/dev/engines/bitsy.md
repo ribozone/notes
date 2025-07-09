@@ -4,8 +4,10 @@ description: minimalist game engine
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-04-07T20:07:18-04:00
+modified: 2025-07-09T12:40:11-04:00
 ---
+
+> ~ a little engine for little games, worlds, and stories ~
 
 - [official site](https://bitsy.org/)
 - forks

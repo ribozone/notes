@@ -1,10 +1,10 @@
 ---
 title: recreational notetaking
-description: ribonotes online
+description: ribonotes index
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-07-07T19:57:04-04:00
+modified: 2025-07-09T17:35:49-04:00
 ---
 
 <style>
@@ -32,30 +32,28 @@ modified: 2025-07-07T19:57:04-04:00
 
 **tag guide**:
 - #🧫  -- my projects (my petri dishes)
-- #log  -- informal chronological notes
+- #log  -- streams of consciousness
 - pages w/ copy & paste-able code:
 	- #CSS -- cascading style sheets
 	- #PHP  -- hypertext preprocessor
 	- #VB  -- visual basic
 
-
 ---
 
 ## recently updated <small>([RSS](index.xml))</small>
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 9 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 9 -->
 
-| page                                                                     | folder            | last modified |
-| ------------------------------------------------------------------------ | ----------------- | ------------- |
-| [[eukaryote story]]                        | games/dev         | Jul 7, 2025   |
-| [[pollination]]                          | biology/ecology   | Jul 7, 2025   |
-| [[photosynthesis]]                    | biology/biochem   | Jul 7, 2025   |
-| [[solar synth]]                        | music/instruments | Jul 7, 2025   |
-| [[shows]]                                                | music             | Jul 7, 2025   |
-| [[decker fantasy camp 2025]] | games/dev/jams    | Jul 7, 2025   |
-| [[2025]]                                             | music/year        | Jul 7, 2025   |
-| [[steam next fest]]                            | games             | Jul 7, 2025   |
-| [[discmaster jam]]                     | games/dev/jams    | Jul 7, 2025   |
-| [[link hunting]]                                    | www               | Jul 7, 2025   |
+| page                                                  | folder            | last modified |
+| ----------------------------------------------------- | ----------------- | ------------- |
+| [[photosynthesis]] | biology/biochem   | Jul 9, 2025   |
+| [[biology/biochem/index.md\|index]]                   | biology/biochem   | Jul 9, 2025   |
+| [[bitsy]]                 | games/dev/engines | Jul 9, 2025   |
+| [[spore dispersal]]           | www               | Jul 9, 2025   |
+| [[meta/index.md\|index]]                              | meta              | Jul 9, 2025   |
+| [[styleguide]]                    | meta              | Jul 9, 2025   |
+| [[ideas]]                      | www/homepage      | Jul 9, 2025   |
+| [[biology/zoology/index.md\|index]]                   | biology/zoology   | Jul 9, 2025   |
+| [[eukaryote story]]     | games/dev         | Jul 7, 2025   |
 <!-- SerializedQuery END -->

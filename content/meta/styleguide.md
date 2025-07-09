@@ -4,7 +4,7 @@ description: example HTML elements
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-04-07T18:59:35-04:00
+modified: 2025-07-09T09:26:05-04:00
 ---
 
 # Heading 1
@@ -22,6 +22,9 @@ modified: 2025-04-07T18:59:35-04:00
 Regular text
 **bold**
 *italics*
+[[meta/index|internal link]]
+[external link](https://crouton.net/)
+[link to my main site](https://ribo.zone)
 ~~strikethrough~~
 `code`
 $math$

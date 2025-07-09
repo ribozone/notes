@@ -7,10 +7,10 @@ tags:
   - PHP
   - VB
 created: 2025-03-03
-modified: 2025-07-07T17:20:03-04:00
+modified: 2025-07-09T12:10:58-04:00
 ---
 
-my random link redirect site for exploring the [[www/index|world wide web]] 
+my random redirect site for exploring the [[www/index|world wide web]] 
 
 ## [spore.ribo.zone](https://spore.ribo.zone/) 
 
