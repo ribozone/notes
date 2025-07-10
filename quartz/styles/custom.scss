@@ -153,6 +153,15 @@ ul.overflow > li:last-of-type {
     padding-bottom: 1rem;
 }
 
+.search > #search-container > #search-space > input,
+.search > #search-container > #search-space > #search-layout {
+    border: 5px solid var(--lightgray);
+}
+
+.search > #search-container > #search-space > #search-layout > #results-container .result-card {
+    border-bottom: 5px solid var(--lightgray);
+}
+
 a:hover {
   text-decoration: 2px dotted underline;
   text-underline-offset: 2px;
@@ -189,6 +198,9 @@ a:hover {
     }
     #explorer-content {
         max-height: calc(100vh - 18rem) !important;
+    }
+    .search > #search-container > #search-space > #search-layout[data-preview] > div:first-child {
+        border-right: 5px solid var(--lightgray);
     }
 }
 
