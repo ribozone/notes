@@ -4,7 +4,7 @@ description: ribonotes index
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-07-09T17:35:49-04:00
+modified: 2025-07-10T09:53:43-04:00
 ---
 
 <style>
@@ -42,18 +42,19 @@ modified: 2025-07-09T17:35:49-04:00
 
 ## recently updated <small>([RSS](index.xml))</small>
 
-<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 9 -->
-<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 9 -->
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                                  | folder            | last modified |
-| ----------------------------------------------------- | ----------------- | ------------- |
-| [[photosynthesis]] | biology/biochem   | Jul 9, 2025   |
-| [[biology/biochem/index.md\|index]]                   | biology/biochem   | Jul 9, 2025   |
-| [[bitsy]]                 | games/dev/engines | Jul 9, 2025   |
-| [[spore dispersal]]           | www               | Jul 9, 2025   |
-| [[meta/index.md\|index]]                              | meta              | Jul 9, 2025   |
-| [[styleguide]]                    | meta              | Jul 9, 2025   |
-| [[ideas]]                      | www/homepage      | Jul 9, 2025   |
-| [[biology/zoology/index.md\|index]]                   | biology/zoology   | Jul 9, 2025   |
-| [[eukaryote story]]     | games/dev         | Jul 7, 2025   |
+| page                                                   | folder                   | last modified |
+| ------------------------------------------------------ | ------------------------ | ------------- |
+| [[computers]]                       | tech                     | Jul 10, 2025  |
+| [[tech/index.md\|index]]                               | tech                     | Jul 10, 2025  |
+| [[games/index.md\|index]]                              | games                    | Jul 10, 2025  |
+| [[luciferase]] | biology/biochem/proteins | Jul 10, 2025  |
+| [[biology/botany/hort/index.md\|index]]                | biology/botany/hort      | Jul 10, 2025  |
+| [[link hunting]]                  | www                      | Jul 10, 2025  |
+| [[www/homepage/index.md\|index]]                       | www/homepage             | Jul 10, 2025  |
+| [[meta/index.md\|index]]                               | meta                     | Jul 10, 2025  |
+| [[games/dev/index.md\|index]]                          | games/dev                | Jul 10, 2025  |
+| [[biology/biochem/index.md\|index]]                    | biology/biochem          | Jul 10, 2025  |
 <!-- SerializedQuery END -->

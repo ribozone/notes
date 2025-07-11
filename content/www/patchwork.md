@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T09:39:29-04:00
-modified: 2025-07-02T22:32:37-04:00
+modified: 2025-07-10T09:35:57-04:00
 title: patchwork web manifesto
 description: 
 draft: false
@@ -31,7 +31,5 @@ tags:
 > I evoke the term 'handmade web' to suggest slowness and smallness as a forms of resistance.
 
 > [!tip] principles, [permacomputing.net](https://permacomputing.net/principles/)
-> It is good practice to design systems that are resilient and tolerant to interruptions and even if you do not personally believe such scenarios are imminent. This principle invites reflection: why prioritize resilience? Rather than being a defeatist mindset, it is a practical exercise.
->  ~ ~ ~
->  Before taking action, it’s important to first observe. [...] What is valuable and beautiful? What is needed? What problem are you trying to solve?
+> There is a place for almost everything. Nothing is obsolete or irrelevant. Even if they lose their original meaning and context, most programmable systems may be readapted to new purposes for which they were not originally designed. Think about technology as a rhizome rather than a "highway of progress and constant obsolescence".
 

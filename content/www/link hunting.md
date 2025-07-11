@@ -4,7 +4,7 @@ description: websurfing unlimited
 draft: false
 tags: 
 created: 2025-03-03
-modified: 2025-07-01T20:14:41-04:00
+modified: 2025-07-10T15:44:11-04:00
 ---
 
 ## Link blogs
@@ -36,7 +36,7 @@ modified: 2025-07-01T20:14:41-04:00
 	- [Chia's poetic web](https://www.are.na/chia/poetic-web)
 - bluesky feeds
 	- [World Wide Web](https://bsky.app/profile/ribo.zone/feed/aaai2qt6lgrng) (I made this with [skyfeed](https://skyfeed.app/))
-	- [Trending Links](https://bsky.app/profile/why.bsky.team/feed/links) (sometimes interesting, but not very fun)
+	- [Trending Links](https://bsky.app/profile/why.bsky.team/feed/links) (sometimes interesting, but rarely ever fun)
 - forums
 	- 32-Bit Cafe's [Links Around the Web](https://discourse.32bit.cafe/c/links/45) category
 	- Melonland's [Hyperlinks](https://forum.melonland.net/index.php?board=37.0) board
