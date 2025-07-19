@@ -4,7 +4,7 @@ description: ribonotes index
 draft: false
 tags: 
 created: 2025-03-03T21:37:00
-modified: 2025-07-10T09:53:43-04:00
+modified: 2025-07-12T12:04:16-04:00
 ---
 
 <style>
@@ -45,16 +45,16 @@ modified: 2025-07-10T09:53:43-04:00
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                                   | folder                   | last modified |
-| ------------------------------------------------------ | ------------------------ | ------------- |
-| [[computers]]                       | tech                     | Jul 10, 2025  |
-| [[tech/index.md\|index]]                               | tech                     | Jul 10, 2025  |
-| [[games/index.md\|index]]                              | games                    | Jul 10, 2025  |
-| [[luciferase]] | biology/biochem/proteins | Jul 10, 2025  |
-| [[biology/botany/hort/index.md\|index]]                | biology/botany/hort      | Jul 10, 2025  |
-| [[link hunting]]                  | www                      | Jul 10, 2025  |
-| [[www/homepage/index.md\|index]]                       | www/homepage             | Jul 10, 2025  |
-| [[meta/index.md\|index]]                               | meta                     | Jul 10, 2025  |
-| [[games/dev/index.md\|index]]                          | games/dev                | Jul 10, 2025  |
-| [[biology/biochem/index.md\|index]]                    | biology/biochem          | Jul 10, 2025  |
+| page                                                                     | folder                   | last modified |
+| ------------------------------------------------------------------------ | ------------------------ | ------------- |
+| [[decker fantasy camp 2025]] | games/dev/jams           | Jul 19, 2025  |
+| [[pollination]]                          | biology/ecology          | Jul 11, 2025  |
+| [[rpgmaker]]                              | games/dev/engines        | Jul 11, 2025  |
+| [[games/dev/index.md\|index]]                                            | games/dev                | Jul 10, 2025  |
+| [[computers]]                                         | tech                     | Jul 10, 2025  |
+| [[tech/index.md\|index]]                                                 | tech                     | Jul 10, 2025  |
+| [[games/index.md\|index]]                                                | games                    | Jul 10, 2025  |
+| [[luciferase]]                   | biology/biochem/proteins | Jul 10, 2025  |
+| [[biology/botany/hort/index.md\|index]]                                  | biology/botany/hort      | Jul 10, 2025  |
+| [[link hunting]]                                    | www                      | Jul 10, 2025  |
 <!-- SerializedQuery END -->
