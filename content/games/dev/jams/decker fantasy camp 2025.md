@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T18:35:19-04:00
-modified: 2025-07-19T00:58:34-04:00
+modified: 2025-07-21T20:26:14-04:00
 title: decker fantasy camp 2025
 description: 
 draft: false
@@ -14,7 +14,7 @@ tags:
 - **July 1st** 2025 at 3:00 AM EST to **August 1st** 2025 at 3:00 AM EST
 - [jam page on itch.io](https://itch.io/jam/decker-fantasy-camp-2025) + [WIP discussion thread](https://itch.io/t/5021349/decker-fantasy-camp-2025-wips-topic)
 
-> [!done] i submitted something! -> [cell culture](https://ribozone.itch.io/cell)
+> [!done] i submitted something! -> [cell culture](https://ribozone.itch.io/cell-culture)
 
 ## devlog
 
@@ -78,3 +78,10 @@ tags:
 		- well. ok. 'tis what 'tis
 - i submitted with about 9 hours left yaaaay wooohooooo
 - still past my bedtime. i sleep
+
+#### july 21<sup>st</sup>
+
+- almost jumped out of my chair when i noticed pizzapranks added cell culture to [this collection](https://itch.io/c/4565/to-play)
+	- "If your game is on this list I would certainly recommend [submitting](http://indiepocalypse.com/submit) your game to Indiepocalypse!'"
+	- i was literally honestly really truly listening to indiepocalypse radio at that moment
+	- unbelievably wild

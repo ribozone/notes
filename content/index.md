@@ -47,7 +47,8 @@ modified: 2025-07-12T12:04:16-04:00
 
 | page                                                                     | folder                   | last modified |
 | ------------------------------------------------------------------------ | ------------------------ | ------------- |
-| [[decker fantasy camp 2025]] | games/dev/jams           | Jul 19, 2025  |
+| [[patchwork]]                                          | www                      | Jul 21, 2025  |
+| [[decker fantasy camp 2025]] | games/dev/jams           | Jul 21, 2025  |
 | [[pollination]]                          | biology/ecology          | Jul 11, 2025  |
 | [[rpgmaker]]                              | games/dev/engines        | Jul 11, 2025  |
 | [[games/dev/index.md\|index]]                                            | games/dev                | Jul 10, 2025  |
@@ -56,5 +57,4 @@ modified: 2025-07-12T12:04:16-04:00
 | [[games/index.md\|index]]                                                | games                    | Jul 10, 2025  |
 | [[luciferase]]                   | biology/biochem/proteins | Jul 10, 2025  |
 | [[biology/botany/hort/index.md\|index]]                                  | biology/botany/hort      | Jul 10, 2025  |
-| [[link hunting]]                                    | www                      | Jul 10, 2025  |
 <!-- SerializedQuery END -->

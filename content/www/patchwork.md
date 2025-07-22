@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T09:39:29-04:00
-modified: 2025-07-10T09:35:57-04:00
+modified: 2025-07-21T20:36:09-04:00
 title: patchwork web manifesto
 description: 
 draft: false
@@ -33,3 +33,7 @@ tags:
 > [!tip] principles, [permacomputing.net](https://permacomputing.net/principles/)
 > There is a place for almost everything. Nothing is obsolete or irrelevant. Even if they lose their original meaning and context, most programmable systems may be readapted to new purposes for which they were not originally designed. Think about technology as a rhizome rather than a "highway of progress and constant obsolescence".
 
+> [!question] My Website Is My Toy, [mycorrhiza.space](https://mycorrhiza.space/Blog/2025-03-22-mye_touy)
+> I think an important step in mastery is getting silly with it. This is also where I'm no longer just acting upon my site but my site is also influencing me. I am in conversation with what I have already built and every time I look at it I have questions reflected back at me.
+> ~ ~ ~
+> By seeing my website as a toy I also approach it with more curiosity. What new thing can I build? What new type of code can I try here?
