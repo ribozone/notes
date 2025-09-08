@@ -2,7 +2,7 @@
 created: 2025-07-01T18:35:19-04:00
 modified: 2025-07-21T20:26:14-04:00
 title: decker fantasy camp 2025
-description: 
+description: devlog for cell culture
 draft: false
 tags:
   - 🧫

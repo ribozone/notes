@@ -1,6 +1,6 @@
 ---
 created: 2025-06-27T16:03:06-04:00
-modified: 2025-07-10T16:24:09-04:00
+modified: 2025-07-22T13:50:06-04:00
 title: technology
 description: 
 draft: false
@@ -12,5 +12,7 @@ tags:
 
 news: [404 media](https://www.404media.co/)
 the only good youtube channel: [technology connections](https://www.youtube.com/technologyconnections)
+
+diy tech: [[solar synth]]
 
 ---
