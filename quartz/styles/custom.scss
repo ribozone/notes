@@ -27,7 +27,15 @@ body::before {
 }
 
 .page > #quartz-body .sidebar {
-    gap: 1.5rem;
+    gap: 2.5rem;
+}
+
+.page > #quartz-body .sidebar.right:has(ul.tags):has(.toc) {
+    gap: 1rem;
+}
+
+.page > #quartz-body .sidebar.right {
+    margin-left: 20px;
 }
 
 .page > #quartz-body .sidebar.left {
@@ -99,13 +107,27 @@ input[type="checkbox"] {
     margin-right: 25%;
 }
 
+h1.article-title {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    text-wrap: balance;
+}
+
 h2:has(.tag-link) {
     border-top: 5px var(--lightgray) solid;
     padding-top: 2rem;
 }
+#toc h3 {
+    text-transform: lowercase;
+    opacity: 0.75;
+}
+.graph h3 {
+    display: none;
+}
 
 .page-listing time {
     text-transform: lowercase;
+    font-family: monospace;
 }
 
 .page-listing ul.section-ul {
@@ -127,8 +149,8 @@ h2:has(.tag-link) {
 	display: none;
 }
 
-.callout:has(.callout-content) .callout-title {
-    padding: 1rem 0 0.5rem 0;
+.callout .callout-content {
+    margin-top: -0.5rem;
 }
 
 ul.tags li {
@@ -191,16 +213,40 @@ a:hover {
     }
     .page > #quartz-body .sidebar.left {
         gap: 2rem 10px;
-        height: 85vh;
+        height: fit-content;
+    }
+    .page > #quartz-body .sidebar.left .graph {
+        width: calc(100% - 50px);
+        margin: 0;
     }
     .page-title { 
         width: 100%;
     }
-    #explorer-content {
-        max-height: calc(100vh - 18rem) !important;
-    }
     .search > #search-container > #search-space > #search-layout[data-preview] > div:first-child {
         border-right: 5px solid var(--lightgray);
+    }
+    .content-meta.desktop-only {
+        color: var(--darkgray);
+        margin: 4rem 0 0 0;
+    }
+    .content-meta.desktop-only span {
+        opacity: 0.75;
+    }
+    .content-meta.desktop-only,
+    .toc.desktop-only {
+        background-color: var(--light);
+        border-radius: 5px;
+        border: 5px solid var(--lightgray);
+        padding: 10px;
+    }
+    .toc.desktop-only #toc-content .overflow {
+        margin: 5px 0 0 5px;
+    }
+    h1.article-title {
+        margin: 2rem 0;
+    }
+    .page blockquote:not(.callout) {
+        border-left-width: 5px;
     }
 }
 

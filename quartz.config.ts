@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ribonotes",
+    pageTitle: "✦ ribonotes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: false,
@@ -41,8 +41,8 @@ const config: QuartzConfig = {
           light: "#162020",
           lightgray: "#203030",
           gray: "#627373",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
+          darkgray: "#b8bfbd",
+          dark: "#b8bfbd",
           secondary: "#9aae56",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
