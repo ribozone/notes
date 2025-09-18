@@ -34,10 +34,10 @@ interface BreadcrumbOptions {
 
 const defaultOptions: BreadcrumbOptions = {
   spacerSymbol: "/",
-  rootName: "🏠︎",
+  rootName: "",
   resolveFrontmatterTitle: true,
   hideOnRoot: true,
-  showCurrentPage: true,
+  showCurrentPage: false,
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
