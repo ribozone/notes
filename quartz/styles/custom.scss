@@ -34,10 +34,6 @@ body::before {
     gap: 1rem;
 }
 
-.page > #quartz-body .sidebar.right {
-    margin-left: 20px;
-}
-
 .page > #quartz-body .sidebar.left {
     flex-direction: row;
     flex-wrap: wrap;
@@ -195,6 +191,8 @@ a:hover {
     }
     .page > #quartz-body .sidebar.left {
         padding-top: calc(1rem + 10px);
+        position: sticky;
+        background: var(--light);
     }
     .center ul.tags {
         display: block;
@@ -278,5 +276,8 @@ a:hover {
     }
     .page > #quartz-body .sidebar.right .backlinks {
         display: none;
+    }
+    .page > #quartz-body .sidebar.right {
+        margin-left: 20px;
     }
 }
