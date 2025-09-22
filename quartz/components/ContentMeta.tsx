@@ -42,7 +42,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
        const areDatesNotEqual = datecreatedValue?.getTime() !== datemodifiedValue?.getTime();
        if (areDatesNotEqual) {
          segments.push(
-          <span>✦ modified <Date date={_getDateCustom(cfg, fileData,'modified')!} locale={cfg.locale} /></span>
+          <span>✦ updated <Date date={_getDateCustom(cfg, fileData,'modified')!} locale={cfg.locale} /></span>
         )
       }
     }

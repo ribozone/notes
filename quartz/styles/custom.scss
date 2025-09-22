@@ -3,8 +3,21 @@
 // put your custom CSS here!
 
 @font-face {
-    font-family: "National Park";
-    src: url("./static/fonts/NationalPark-VariableVF.woff2") format(woff2);
+    font-family: "Victor Mono";
+    src: url("./static/fonts/VictorMono-Regular.woff2") format(woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Victor Mono";
+    src: url("./static/fonts/VictorMono-Bold.woff2") format(woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Victor Mono";
+    src: url("./static/fonts/VictorMono-SemiBold.woff2") format(woff2);
+    font-weight: 600;
 }
 
 :root {
@@ -78,9 +91,9 @@ input[type="checkbox"] {
 
 .center a[href^="https://ribo.zone"]::after {
     content: url("https://ribo.zone/img/favicon.png");
-    vertical-align: baseline;
+    vertical-align: bottom;
     width: 16px;
-    margin: 0 3px;
+    margin-left: 6px;
     image-rendering: pixelated;
 }
 
@@ -95,7 +108,6 @@ input[type="checkbox"] {
 
 .content-meta span {
     display: inline-block;
-    margin-right: 0.25em;
     text-transform: lowercase;
 }
 
@@ -123,7 +135,6 @@ h2:has(.tag-link) {
 
 .page-listing time {
     text-transform: lowercase;
-    font-family: monospace;
 }
 
 .page-listing ul.section-ul {
@@ -193,6 +204,7 @@ a:hover {
         padding-top: calc(1rem + 10px);
         position: sticky;
         background: var(--light);
+        width: 100%;
     }
     .center ul.tags {
         display: block;
@@ -202,6 +214,9 @@ a:hover {
     }
     li.section-li > .section {
         grid-template-columns: fit-content(8em) 3fr 0fr;
+    }
+    .content-meta span {
+        margin-right: 0.75em;
     }
 }
 

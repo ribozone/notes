@@ -21,9 +21,9 @@ const config: QuartzConfig = {
       fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: "National Park",
-        body: "National Park",
-        code: "monospace",
+        header: "Victor Mono",
+        body: "Victor Mono",
+        code: "Victor Mono",
       },
       colors: {
         lightMode: {
