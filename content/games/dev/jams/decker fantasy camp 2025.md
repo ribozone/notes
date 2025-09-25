@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T18:35:19-04:00
-modified: 2025-07-21T20:26:14-04:00
+modified: 2025-09-25T16:02:08-04:00
 title: decker fantasy camp 2025
 description: devlog for cell culture
 draft: false
@@ -81,7 +81,8 @@ tags:
 
 #### july 21<sup>st</sup>
 
-- almost jumped out of my chair when i noticed pizzapranks added cell culture to [this collection](https://itch.io/c/4565/to-play)
-	- "If your game is on this list I would certainly recommend [submitting](http://indiepocalypse.com/submit) your game to Indiepocalypse!'"
-	- i was literally honestly really truly listening to indiepocalypse radio at that moment
+- almost jumped out of my chair when i noticed pizzapranks added cell culture to [this collection](https://itch.io/c/4565/to-play) on itch.io
+	- "If your game is on this list I would certainly recommend [submitting](http://indiepocalypse.com/submit) your game to Indiepocalypse!"
+	- i was literally listening to indiepocalypse radio at that moment
 	- unbelievably wild
+		- i did it

@@ -1,10 +1,10 @@
 ---
 title: game jams
-description: 
+description:
 draft: false
-tags: 
+tags:
 created: 2025-03-16
-modified: 2025-07-25T13:25:16-04:00
+modified: 2025-09-19T09:33:33-04:00
 ---
 
 i have fun participating in web-based [code jams](https://ribo.zone/sunday), so i think it might be fun to make something for a game jam too
@@ -14,7 +14,7 @@ i have fun participating in web-based [code jams](https://ribo.zone/sunday), so 
 ## regularly occurring
 
 - [bitsy jam](https://ledoux.itch.io/bitsy/devlog) - for games made in [[bitsy]] (monthly)
-- [decker jam](https://itch.io/t/4124409/the-decker-jam-directory) - for games(&more) made in [decker](https://beyondloom.com/decker/) (every july and december)
+- [decker jam](https://itch.io/t/4124409/the-decker-jam-directory) - for games(&more) made in [[decker]] (every july and december)
 - [minijam](https://minijamofficial.com/) - 72 hours, themes, limitations (fortnightly)
 - [nanoreno](https://www.nanoreno.org/) - visual novel jam (yearly, march)
 

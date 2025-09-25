@@ -2,9 +2,9 @@
 title: recreational notetaking
 description: ribonotes index
 draft: false
-tags: 
+tags:
 created: 2025-03-03T21:37:00
-modified: 2025-08-25T14:51:39-04:00
+modified: 2025-09-25T15:53:01-04:00
 ---
 
 <style>
@@ -26,14 +26,16 @@ modified: 2025-08-25T14:51:39-04:00
 '   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'   `-' `-'
 ```
 
--  [[meta/index|site meta]] -- how & why i made this site
+hello! i'm loren. i have a [personal homepage](https://ribo.zone) where i put a lot of effort into sharing things that i love. this is my second site, where i put minimal effort into jotting down whatever. it is built from my obsidian vault, which contains lists, drafts, logs, and other scraps.
 
-**link guide:** [[meta/index|internal links]] | [external links](https://crouton.net/) | [links to my main site](https://ribo.zone)
+**major topics**:
+- [[www/index|the world wide web]] -- um. of course
+- [[games/index|games]] -- i try to take detailed notes when i participate in [[games/dev/jams/index|game jams]]
+- [[biology/index|biology]] -- SSGs make it too easy to make 1 billion pages so there's too many of these and they're all super sparse, but maybe one day this will develop into something interesting
 
-**tag guide**:
+**tags of note:**
 - [[tags/🧫]]  -- my projects (my petri dishes)
 - [[tags/log]]  -- streams of consciousness
-- see the [[tags/index|tag index]] for the rest of them
 
 ---
 
@@ -42,16 +44,16 @@ modified: 2025-08-25T14:51:39-04:00
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                    | folder            | last modified |
-| --------------------------------------- | ----------------- | ------------- |
-| [[patchwork]]         | www               | Jul 29, 2025  |
-| [[gardens]]  | biology/botany    | Jul 27, 2025  |
-| [[games/dev/jams/index.md\|index]]      | games/dev/jams    | Jul 25, 2025  |
-| [[meta/index.md\|index]]                | meta              | Jul 24, 2025  |
-| [[computers]]        | tech              | Jul 23, 2025  |
-| [[shows]]               | music             | Jul 23, 2025  |
-| [[games/dev/index.md\|index]]           | games/dev         | Jul 23, 2025  |
-| [[tech/index.md\|index]]                | tech              | Jul 22, 2025  |
-| [[videos]]             | music             | Jul 22, 2025  |
-| [[decker]] | games/dev/engines | Jul 22, 2025  |
+| page                                                                     | folder                   | last modified |
+| ------------------------------------------------------------------------ | ------------------------ | ------------- |
+| [[decker fantasy camp 2025]] | games/dev/jams           | Sep 25, 2025  |
+| [[meta/index.md\|index]]                                                 | meta                     | Sep 25, 2025  |
+| [[games/dev/engines/index.md\|index]]                                    | games/dev/engines        | Sep 25, 2025  |
+| [[patchwork]]                                          | www                      | Sep 25, 2025  |
+| [[videos]]                                              | music                    | Sep 22, 2025  |
+| [[games/dev/jams/index.md\|index]]                                       | games/dev/jams           | Sep 19, 2025  |
+| [[www/index.md\|index]]                                                  | www                      | Aug 26, 2025  |
+| [[computers]]                                         | tech                     | Aug 26, 2025  |
+| [[luciferase]]                   | biology/biochem/proteins | Aug 25, 2025  |
+| [[gardens]]                                   | biology/botany           | Jul 27, 2025  |
 <!-- SerializedQuery END -->

@@ -2,16 +2,21 @@
 title: meta
 description: information about how this site is built
 draft: false
-tags: 
+tags:
 created: 2025-03-03
-modified: 2025-07-24T09:03:10-04:00
+modified: 2025-09-25T15:23:00-04:00
 ---
 
 - notes written and organized in [Obsidian](https://obsidian.md/) 
 - site generated with [Quartz v4.4.0](https://quartz.jzhao.xyz/)
 - hosted on [GitHub Pages](https://pages.github.com/)
 
-> [!warning] this is my notebook, not an archive! all pages are subject to deletion/recategorization/whatever
+## navigation
+
+- **link guide:** [[meta/index|internal links]] | [external links](https://crouton.net/) | [links to my main site](https://ribo.zone)
+- [[tags/index|all tags]]
+
+> [!warning] this is my notebook, not an archive! all pages are subject to deletion/reorganization
 
 ## obsidian plugins
 
@@ -21,7 +26,7 @@ modified: 2025-07-24T09:03:10-04:00
 
 ## font
 
-- [Victor Mono](https://rubjo.github.io/victor-mono/)
+- [Victor Mono](https://rubjo.github.io/victor-mono/) for everything :-)
 
 ## why?
 

@@ -2,9 +2,9 @@
 title: game engines
 description: tools to make games
 draft: false
-tags: 
+tags:
 created: 2025-03-03
-modified: 2025-07-04T08:50:11-04:00
+modified: 2025-09-25T13:59:32-04:00
 ---
 
 ## have tried
@@ -12,6 +12,7 @@ modified: 2025-07-04T08:50:11-04:00
 - [[bitsy]]
 - [[rpgmaker]]
 - [[decker]]
+- [wareware](https://wareware.rip)
 - [GB studio](https://www.gbstudio.dev/)
 - [Godot](https://godotengine.org/)
 
