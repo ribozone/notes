@@ -160,6 +160,12 @@ h2:has(.tag-link) {
     margin-top: -0.5rem;
 }
 
+blockquote hr {
+    margin: 0 auto;
+    filter: brightness(2);
+    height: 1px;
+}
+
 ul.tags li {
     margin-right: 0.25rem;
 }
