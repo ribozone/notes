@@ -201,10 +201,14 @@ a:hover {
         padding-left: 1.38em;
     }
     .page > #quartz-body .sidebar.left {
-        padding-top: calc(1rem + 10px);
+        padding: calc(0.75rem + 10px) 0 0.75rem 0;
         position: sticky;
         background: var(--light);
         width: 100%;
+        font-size: 80%;
+    }
+    .page > #quartz-body .sidebar.left .page-title {
+        font-size: 1.5rem;
     }
     .center ul.tags {
         display: block;
