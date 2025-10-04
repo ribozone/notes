@@ -44,16 +44,16 @@ hello! i'm loren. i have a [personal homepage](https://ribo.zone) where i put a 
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                                                     | folder                   | last modified |
-| ------------------------------------------------------------------------ | ------------------------ | ------------- |
-| [[decker fantasy camp 2025]] | games/dev/jams           | Sep 25, 2025  |
-| [[meta/index.md\|index]]                                                 | meta                     | Sep 25, 2025  |
-| [[games/dev/engines/index.md\|index]]                                    | games/dev/engines        | Sep 25, 2025  |
-| [[patchwork]]                                          | www                      | Sep 25, 2025  |
-| [[videos]]                                              | music                    | Sep 22, 2025  |
-| [[games/dev/jams/index.md\|index]]                                       | games/dev/jams           | Sep 19, 2025  |
-| [[www/index.md\|index]]                                                  | www                      | Aug 26, 2025  |
-| [[computers]]                                         | tech                     | Aug 26, 2025  |
-| [[luciferase]]                   | biology/biochem/proteins | Aug 25, 2025  |
-| [[gardens]]                                   | biology/botany           | Jul 27, 2025  |
+| page                                                                     | folder            | last modified |
+| ------------------------------------------------------------------------ | ----------------- | ------------- |
+| [[indiepocalypse]]                              | games             | Oct 4, 2025   |
+| [[discmaster jam]]                     | games/dev/jams    | Oct 4, 2025   |
+| [[decker fantasy camp 2025]] | games/dev/jams    | Oct 4, 2025   |
+| [[games/index.md\|index]]                                                | games             | Oct 4, 2025   |
+| [[meta/index.md\|index]]                                                 | meta              | Sep 25, 2025  |
+| [[games/dev/engines/index.md\|index]]                                    | games/dev/engines | Sep 25, 2025  |
+| [[patchwork]]                                          | www               | Sep 25, 2025  |
+| [[videos]]                                              | music             | Sep 22, 2025  |
+| [[games/dev/jams/index.md\|index]]                                       | games/dev/jams    | Sep 19, 2025  |
+| [[www/index.md\|index]]                                                  | www               | Aug 26, 2025  |
 <!-- SerializedQuery END -->
