@@ -1,10 +1,10 @@
 ---
 created: 2025-07-01T13:47:54-04:00
-modified: 2025-07-03T13:17:51-04:00
+modified: 2025-10-07T12:43:44-04:00
 title: birds
-description: 
+description:
 draft: false
-tags: 
+tags:
 ---
 
 ## ornithology resources
@@ -22,5 +22,8 @@ tags:
 - mio's [The Birds](https://mioasis.neocities.org/shrine/birds)
 - emily's [birds birds birds](https://emily-computer.neocities.org/birding)
 - ratwalks's [Bird Log](https://ratwalks.neocities.org/birdzone/birdzone)
+- p4chypumkin's [life list](https://p4tchypumkin.neocities.org/life-list)
+- miguel's [bird gallery](https://pickledowl.neocities.org/birds/)
+- emma's [birding gallery](https://emmas-mindforest.neocities.org/birding%20/birding)
 
 ---

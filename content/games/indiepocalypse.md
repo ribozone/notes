@@ -1,6 +1,6 @@
 ---
 created: 2025-10-04T10:34:00-04:00
-modified: 2025-10-04T10:53:20-04:00
+modified: 2025-10-07T10:02:00-04:00
 title: indiepocalypse
 description: monthly anthology of alternative games
 draft: false
@@ -16,4 +16,4 @@ tags:
 > 
 > -- [indiepocalypse starter](https://pizzapranks.com/indiepocalypse-starter/)
 
-[[decker fantasy camp 2025|cell culture]] is featured in [indiepocalypse #69](https://pizzapranks.itch.io/indiepocalypse-69) !
+[[decker fantasy camp 2025|cell culture]] is featured in [indiepocalypse #69](https://pizzapranks.itch.io/indiepocalypse-69) ! TODO: write up blog post about all the other games in the issue/what indiepocalypse means to me
