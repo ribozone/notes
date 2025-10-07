@@ -40,10 +40,10 @@ body::before {
 }
 
 .page > #quartz-body .sidebar {
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
-.page > #quartz-body .sidebar.right:has(ul.tags):has(.toc) {
+.page > #quartz-body .sidebar.right:has(ul.tags) {
     gap: 1rem;
 }
 
@@ -89,11 +89,12 @@ input[type="checkbox"] {
     display: none;
 }
 
-.center a[href^="https://ribo.zone"]::after {
+.center a[href^="https://ribo.zone"]::before {
     content: url("https://ribo.zone/img/favicon.png");
-    vertical-align: bottom;
+    vertical-align: middle;
     width: 16px;
-    margin-left: 6px;
+    line-height: 0;
+    margin-right: 6px;
     image-rendering: pixelated;
 }
 
