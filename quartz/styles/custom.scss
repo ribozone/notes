@@ -57,6 +57,10 @@ footer {
     opacity: 1;
 }
 
+sup, sup a.internal {
+    line-height: 0;
+}
+
 hr {
    height: 5px; 
 }
