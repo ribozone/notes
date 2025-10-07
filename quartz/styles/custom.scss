@@ -208,6 +208,9 @@ a:hover {
 }
 
 @media (max-width:800px) {
+    :root {
+        font-size: 0.85rem;
+    }
     ul {
         padding-left: 1.38em;
     }
