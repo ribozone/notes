@@ -46,7 +46,7 @@ function coerceToArray(input: string | string[]): string[] | undefined {
 export function getAliasSlugs(aliases: string[], argv: Argv, file: VFile): FullSlug[] {
   const dir = path.posix.relative(argv.directory, path.dirname(file.data.filePath!))
   const slugs: FullSlug[] = aliases.map(
-    (alias) => path.posix.join(dir, slugifyFilePath(alias as FilePath)) as FullSlug,
+    (alias) => (alias.startsWith("/") ? alias : `/${alias}`) as FullSlug,
   )
   const permalink = file.data.frontmatter?.permalink
   if (typeof permalink === "string") {
