@@ -275,6 +275,10 @@ a {
   border-top: 5px solid var(--lightgray);
 }
 
+.footnotes h2 {
+  text-transform: lowercase;
+}
+
 input[type="checkbox"] {
   transform: translateY(2px);
   color: var(--secondary);
