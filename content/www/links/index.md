@@ -4,7 +4,7 @@ description: websurfing unlimited
 draft: false
 tags:
 created: 2025-03-03
-modified: 2025-10-07T12:22:57-04:00
+modified: 2025-10-08T10:30:01-04:00
 aliases:
   - /www/link-hunting
 ---
@@ -34,7 +34,7 @@ aliases:
 - [the forest](https://theforest.link/) - pretty dev heavy (boring portfolio style) but there are a few rare gems 
 - [[spore dispersal]] (i made this)
 
-## social networks
+## [[www/social/index|social networks]]
 
 - forums
 	- 32-Bit Cafe's [Links Around the Web](https://discourse.32bit.cafe/c/links/45) category

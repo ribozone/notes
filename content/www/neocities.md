@@ -5,7 +5,7 @@ draft: false
 tags:
   - CSS
 created: 2025-03-08
-modified: 2025-10-07T10:35:25-04:00
+modified: 2025-10-08T11:15:53-04:00
 ---
 
 - [source code activity](https://github.com/neocities/neocities/activity) on github
@@ -13,7 +13,7 @@ modified: 2025-10-07T10:35:25-04:00
 
 ## hiding ui elements with css
 
-view and follower counts have been stressing me out lately, and i had more fun on the global activity page when it just showed site update previews without every single user's text statuses and comments[^1], so i've been using [custom css (in firefox)](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/)[^2] to hide some things.
+view and follower counts have been stressing me out lately, and i had more fun on the global activity page when it just showed site update previews without every single user's text statuses[^1], so i've been using [custom css (in firefox)](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/)[^2] to hide some things.
 
 `userContent.css`
 ```css
@@ -39,6 +39,5 @@ view and follower counts have been stressing me out lately, and i had more fun o
 }
 ```
 
-[^1]: soooo many of them are about view and follower counts, which i'm trying to avoid
-
+[^1]: why are so many of these just pointing out how many views/followers their site has?
 [^2]: i gotta figure out how to do this on mobile... for my health

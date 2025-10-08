@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T09:39:29-04:00
-modified: 2025-09-25T13:23:25-04:00
+modified: 2025-10-07T16:45:56-04:00
 title: patchwork web manifesto
 description:
 draft: false
@@ -37,4 +37,10 @@ tags:
 > I think an important step in mastery is getting silly with it. This is also where I'm no longer just acting upon my site but my site is also influencing me.
 >  - - -
 > By seeing my website as a toy I also approach it with more curiosity. What new thing can I build? What new type of code can I try here? How would this update look?
+
+> [!bug] The Organic Web, [decay.connie.surf](https://decay.connie.surf/)
+> Sometimes I think the internet is purposely built for remembering too much as a revenue driver - as we hold more data, we pay more. But we need to let go to allow for transformation of our ideas, and ourselves.
+
+> [!success] HTML Day and celebrating websites, [kayserifserif.place](https://kayserifserif.place/posts/2025/html-day)
+> The idea of “[HTML Energy](https://html.energy/)”, to me, is about celebrating the web and celebrating websites — handmade websites, indie websites, websites made with raw materials; painfully, delightfully personal and human websites. Websites, not as anonymous sources of data for machines to slurp up, but as creative expression, as digital homes, as graffiti alleys, as studio spaces, as portals, as safe havens.
 

@@ -1,10 +1,12 @@
 ---
 title: webpage ideas
-description: 
+description:
 draft: false
-tags: 
+tags:
 created: 2025-03-08
-modified: 2025-06-28T17:42:01-04:00
+modified: 2025-10-08T11:20:41-04:00
+aliases:
+  - /www/homepage/ideas
 ---
 
 > [!info] reminder to self: this is not a to-do list
