@@ -8,7 +8,8 @@ modified: 2025-10-08T11:40:45-04:00
 ---
 
 <style>
-	.table-container table { width: calc(100% - 1rem); margin: 0 0.5rem; }
+	 .table-container { width: calc(100% - 1rem) !important; }
+	 .table-container table { width: 100% !important; }
 	td, th {
 		max-width: 21vw;
 		overflow: hidden;

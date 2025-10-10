@@ -53,12 +53,26 @@ body::before {
     align-items: center;
 }
 
-footer { 
-    opacity: 1;
-}
-
 sup, sup a.internal {
     line-height: 0;
+}
+
+.table-container {
+    border: 5px solid var(--lightgray);
+    border-radius: 10px;
+    padding: 0;
+    width: fit-content;
+}
+
+.table-container table { 
+    margin: 0;
+}
+
+th {
+    background: var(--lightgray);
+    color: var(--dark);
+    border: 0;
+    padding: 0 0.7rem 5px 0.7rem;
 }
 
 hr {
