@@ -53,6 +53,17 @@ body::before {
     align-items: center;
 }
 
+.page footer { 
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 2.5rem;
+}
+
+.page footer ul {
+    justify-content: center;
+}
+
 sup, sup a.internal {
     line-height: 0;
 }
