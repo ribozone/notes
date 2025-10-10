@@ -224,6 +224,14 @@ a:hover {
     .page > #quartz-body .sidebar.left .page-title {
         font-size: 1.5rem;
     }
+    .page > #quartz-body .sidebar.right .backlinks > .overflow {
+        height: fit-content;
+        border-bottom: 5px solid var(--lightgray); 
+        padding-bottom: 2.5rem;
+    }
+    .page > #quartz-body .sidebar.right .backlinks > h3 {
+        text-transform: lowercase;
+    }
     .center ul.tags {
         display: block;
     }
