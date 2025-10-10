@@ -155,10 +155,21 @@ h2:has(.tag-link) {
     border-top: 5px var(--lightgray) solid;
     padding-top: 2rem;
 }
+
 #toc h3 {
     text-transform: lowercase;
     opacity: 0.75;
 }
+
+#toc-content a {
+    font-weight: normal;
+}
+
+#toc-content > ul > li > a:hover,
+#toc-content > ul > li > a:focus {
+    opacity: 1;
+}
+
 .graph h3 {
     display: none;
 }
@@ -295,6 +306,7 @@ a:hover {
     }
     .content-meta.desktop-only span {
         opacity: 0.75;
+        line-height: 1.5rem;
     }
     .content-meta.desktop-only,
     .toc.desktop-only {
