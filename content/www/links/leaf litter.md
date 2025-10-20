@@ -1,13 +1,13 @@
 ---
 created: 2025-10-07T11:31:51-04:00
-modified: 2025-10-08T11:38:07-04:00
+modified: 2025-10-12T12:54:09-04:00
 title: leaf litter
 description: weekly (?) linkblog hosted on leaflet.pub
 draft: false
 tags:
   - 🧫
 ---
-[leaf litter](https://litter.leaflet.pub/) is my weekly (?) linkblog hosted on [[atproto#leaflet|leaflet.pub]]
+[leaf litter](https://litter.leaflet.pub/) is my weekly (?) linkblog hosted on [[atproto#leaflet.pub|leaflet.pub]]
 
 > I'm calling it leaf litter because I like a metaphor that says it's all fine and good to leave a big mess on the ground. my plan is to collect interesting links throughout the week, then hit publish without fussing too much with organization and annotation. just a big pile of links for you (and future me) to make into shelter or nutrients or some other thing not covered by this silly metaphor.
 > -- [linklog #001](https://litter.leaflet.pub/3lwoovsp6xs26)

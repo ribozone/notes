@@ -5,8 +5,19 @@ draft: false
 tags:
   - log
 created: 2025-03-03
-modified: 2025-07-07T17:38:30-04:00
+modified: 2025-10-20T10:05:50-04:00
 ---
+
+
+
+## october 2025
+
+- [cairn](https://store.steampowered.com/app/1588550/Cairn/) -- i love this. the climbing felt really good (for the most part! there was one spot where i was like 'hm i don't think i should be able to contort this way' and another where i fell and even though i seemed to be on a really stable ledge). i am not normally prone to bouts of nostalgia, but i made me so nostalgic for the time i climbed on mount lemmon
+- [cinicross](https://store.steampowered.com/app/3933120/CiniCross/) -- i planned to play more demos but this one really got its hooks in me damn
+- [after school afterlife](https://store.steampowered.com/app/1602550/After_School_Afterlife/) -- i SUCK at platforming but this was so charming that i will persevere. i love all the environments and the ghosts
+- [astrobotanica](https://store.steampowered.com/app/2720920/ASTROBOTANICA/) -- alien scientist exploring and scanning plants is exactly my shit on paper, but in practice i got bored really quickly. two thoughts: 1. i'd rather be outside taking photos of real plants for [[inaturalist]] 2. how does eating a berry replenish your CO<sub>2</sub>?
+- [ambrosia sky](https://store.steampowered.com/app/3580160/Ambrosia_Sky/) -- human scientist cleaning up fungal biohazards ok yes. my shit on paper and in practice. did not love the voice acting (sorry!) but enjoyed just about everything else
+- [the kindling](https://store.steampowered.com/app/3960940/The_Kindling/) -- got a little frustrated that making a kindling only worked for me like 75% of the time and i ended up with a pile of sticks the other 25%.  it's a good puzzle idea and the art is cute but idk. the sound effects were a little grating too
 
 ## june 2025
 
