@@ -25,5 +25,6 @@ tags:
 - p4chypumkin's [life list](https://p4tchypumkin.neocities.org/life-list)
 - miguel's [bird gallery](https://pickledowl.neocities.org/birds/)
 - emma's [birding gallery](https://emmas-mindforest.neocities.org/birding%20/birding)
+- sam's [life list](https://birdtree.land/lifelist/)
 
 ---

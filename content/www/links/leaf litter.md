@@ -1,6 +1,6 @@
 ---
 created: 2025-10-07T11:31:51-04:00
-modified: 2025-10-12T12:54:09-04:00
+modified: 2025-10-21T13:58:37-04:00
 title: leaf litter
 description: weekly (?) linkblog hosted on leaflet.pub
 draft: false
@@ -18,6 +18,7 @@ i like leaflet because the link previews look nice and it's super easy to update
 📓 = linked somewhere on this site
 🏠 = linked on my main site
 
+- [ ] #005: articles about tech
 - [x] #004 : sound toys 📓🏠
 - [x] #003 : web tools and libraries 📓🏠
 - [x] #002 : geometry 📓 ; the net 📓 ; frogs 🍄🏠 ; cnidarians 📓 ; iNat 🍄📓🏠
