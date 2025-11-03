@@ -1,10 +1,10 @@
 ---
 created: 2025-06-27T16:03:06-04:00
-modified: 2025-07-22T13:50:06-04:00
+modified: 2025-10-29T11:52:03-04:00
 title: technology
-description: 
+description:
 draft: false
-tags: 
+tags:
 ---
 > We have been so desensitized by a hundred and fifty years of ceaselessly expanding technical prowess that we think nothing less complex and showy than a computer or a jet bomber deserves to be called “technology” at all. As if linen were the same thing as flax — as if paper, ink, wheels, knives, clocks, chairs, aspirin pills, were natural objects, born with us like our teeth and fingers — as if steel saucepans with copper bottoms and fleece vests spun from recycled glass grew on trees, and we just picked them when they were ripe...
 > 
@@ -13,6 +13,6 @@ tags:
 news: [404 media](https://www.404media.co/)
 the only good youtube channel: [technology connections](https://www.youtube.com/technologyconnections)
 
-diy tech: [[solar synth]]
+diy tech: [[solar synth]], [server charms](https://codeberg.org/actinomy/server-charms-workshop)
 
 ---

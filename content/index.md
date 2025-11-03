@@ -4,7 +4,7 @@ description: ribonotes index
 draft: false
 tags:
 created: 2025-03-03T21:37:00
-modified: 2025-10-29T10:59:09-04:00
+modified: 2025-11-03T17:17:35-05:00
 ---
 
 <style>
@@ -42,18 +42,18 @@ modified: 2025-10-29T10:59:09-04:00
 <!-- QueryToSerialize: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 <!-- SerializedQuery: TABLE WITHOUT ID file.link as "page", file.folder as "folder", file.mday as "last modified" FROM -"tags" SORT file.mtime DESC WHERE file.folder != "" AND draft != true LIMIT 10 -->
 
-| page                                          | folder                | last modified |
-| --------------------------------------------- | --------------------- | ------------- |
-| [[bookmarklets]]         | www                   | Oct 29, 2025  |
-| [[games/dev/index.md\|index]]                 | games/dev             | Oct 28, 2025  |
-| [[biology/zoology/birds/index.md\|index]]     | biology/zoology/birds | Oct 26, 2025  |
-| [[ideas]]                 | www/craft             | Oct 23, 2025  |
-| [[styleguide]]            | meta                  | Oct 21, 2025  |
-| [[leaf litter]]     | www/links             | Oct 21, 2025  |
-| [[steam next fest]] | games                 | Oct 20, 2025  |
-| [[atproto]]            | www/social            | Oct 12, 2025  |
-| [[online]]       | music/instruments     | Oct 8, 2025   |
-| [[www/craft/index.md\|index]]                 | www/craft             | Oct 8, 2025   |
+| page                                                   | folder                   | last modified |
+| ------------------------------------------------------ | ------------------------ | ------------- |
+| [[htaccess]]                    | www/craft                | Nov 3, 2025   |
+| [[bookmarklets]]                  | www                      | Nov 3, 2025   |
+| [[tech/index.md\|index]]                               | tech                     | Oct 29, 2025  |
+| [[luciferase]] | biology/biochem/proteins | Oct 29, 2025  |
+| [[games/dev/index.md\|index]]                          | games/dev                | Oct 28, 2025  |
+| [[biology/zoology/birds/index.md\|index]]              | biology/zoology/birds    | Oct 26, 2025  |
+| [[ideas]]                          | www/craft                | Oct 23, 2025  |
+| [[styleguide]]                     | meta                     | Oct 21, 2025  |
+| [[leaf litter]]              | www/links                | Oct 21, 2025  |
+| [[steam next fest]]          | games                    | Oct 20, 2025  |
 <!-- SerializedQuery END -->
 
 

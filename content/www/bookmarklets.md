@@ -1,13 +1,14 @@
 ---
 created: 2025-10-29T10:40:07-04:00
-modified: 2025-10-29T10:56:17-04:00
+modified: 2025-11-03T11:35:31-05:00
 title: bookmarklets
 description:
 draft: false
 tags:
+  - javascript
 ---
 
-#javascript commands stored as URLs in a browser bookmark
+javascript commands stored in browser bookmarks, mostly for modifying/interacting with the webpage you're on
 
 ## [bookmarklet garden](https://adamledoux.net/bookmarklets/)
 
